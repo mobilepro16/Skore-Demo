@@ -1,0 +1,19 @@
+//
+//  astag.xcconfig
+//  Runner
+//
+//  Created by Huy Nguyen on 6/2/19.
+//  Copyright © 2019 The Chromium Authors. All rights reserved.
+//
+
+#include "Generated.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-astag.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-astag.xcconfig"
+
+FLUTTER_TARGET = lib/main_a_stag.dart
+FLUTTER_APP_NAME = [Staging] Customer A // app name config for ios
+CUSTOM_BUNDLE_IDENTIFIER = io.skore
+BUNDLE_SUFFIX = .customera.stag // You can edit here
+TRACK_WIDGET_CREATION=
+
+

@@ -1,0 +1,16 @@
+//
+//  bstag-release.xcconfig
+//  Runner
+//
+//  Created by Huy Nguyen on 6/2/19.
+//  Copyright © 2019 The Chromium Authors. All rights reserved.
+//
+
+#include "Generated.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-bstag.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-bstag.xcconfig"
+
+FLUTTER_TARGET = lib/main_b_stag.dart
+FLUTTER_APP_NAME = [Staging] Customer B
+CUSTOM_BUNDLE_IDENTIFIER = skore.io
+BUNDLE_SUFFIX = .customerb.staging

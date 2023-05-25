@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "591864498562",
+    "firebase_url": "https://skore-flutter-customer-a.firebaseio.com",
+    "project_id": "skore-flutter-customer-a",
+    "storage_bucket": "skore-flutter-customer-a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591864498562:android:d934256195822314",
+        "android_client_info": {
+          "package_name": "skore.io.customera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591864498562-m134846ka3ehk9rqk0t4hhuie09chc3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZI3NQgAVBY3kDfsfd3a9kuNY7rhoNW2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591864498562-m134846ka3ehk9rqk0t4hhuie09chc3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

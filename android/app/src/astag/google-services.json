@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591864498562",
+    "firebase_url": "https://skore-flutter-customer-a.firebaseio.com",
+    "project_id": "skore-flutter-customer-a",
+    "storage_bucket": "skore-flutter-customer-a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591864498562:android:3fc14ba2bfec4626",
+        "android_client_info": {
+          "package_name": "io.skore.customera.stag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591864498562-m134846ka3ehk9rqk0t4hhuie09chc3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZI3NQgAVBY3kDfsfd3a9kuNY7rhoNW2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591864498562-m134846ka3ehk9rqk0t4hhuie09chc3k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "591864498562-ukgo6agru6q1suknbrq5s7aa9tfskqpe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.skore.customera.stag",
+                "app_store_id": "1469932647"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

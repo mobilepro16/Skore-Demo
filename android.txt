@@ -1,0 +1,2559 @@
+[ +113 ms] executing: [/Users/lfnovo/Documents/dev/flutter/] git log -n 1 --pretty=format:%H
+[  +76 ms] Exit code 0 from: git log -n 1 --pretty=format:%H
+[        ] bc7bc940836f1f834699625426795fd6f07c18ec
+[        ] executing: [/Users/lfnovo/Documents/dev/flutter/] git describe --match v*.*.* --first-parent --long --tags
+[  +30 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
+[        ] v1.6.3-0-gbc7bc9408
+[  +21 ms] executing: [/Users/lfnovo/Documents/dev/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/beta
+[        ] executing: [/Users/lfnovo/Documents/dev/flutter/] git ls-remote --get-url origin
+[   +9 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +71 ms] executing: [/Users/lfnovo/Documents/dev/flutter/] git rev-parse --abbrev-ref HEAD
+[   +8 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] beta
+[ +564 ms] executing: /Users/lfnovo/Library/Android/sdk/platform-tools/adb devices -l
+[   +8 ms] Exit code 0 from: /Users/lfnovo/Library/Android/sdk/platform-tools/adb devices -l
+[        ] List of devices attached
+           emulator-5554          device product:sdk_gphone_x86 model:Android_SDK_built_for_x86 device:generic_x86 transport_id:1
+[  +15 ms] executing: idevice_id -h
+[  +51 ms] /usr/bin/xcrun simctl list --json devices
+[ +374 ms] /Users/lfnovo/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell getprop
+[ +119 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[ +161 ms] Found plugin cloud_firestore at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.3/
+[  +11 ms] Found plugin connectivity at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-0.3.2/
+[  +14 ms] Found plugin firebase_analytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-3.0.2/
+[   +2 ms] Found plugin firebase_core at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.0+3/
+[   +2 ms] Found plugin firebase_crashlytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_crashlytics-0.0.4+4/
+[   +2 ms] Found plugin firebase_database at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.0.2/
+[   +3 ms] Found plugin firebase_dynamic_links at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.4.0+2/
+[   +4 ms] Found plugin firebase_messaging at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-5.0.2/
+[   +9 ms] Found plugin flutter_crashlytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_crashlytics-1.0.0/
+[  +54 ms] Found plugin shared_preferences at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.3+1/
+[  +65 ms] Found plugin cloud_firestore at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.3/
+[   +3 ms] Found plugin connectivity at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-0.3.2/
+[   +7 ms] Found plugin firebase_analytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-3.0.2/
+[   +1 ms] Found plugin firebase_core at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.0+3/
+[   +2 ms] Found plugin firebase_crashlytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_crashlytics-0.0.4+4/
+[   +2 ms] Found plugin firebase_database at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.0.2/
+[   +1 ms] Found plugin firebase_dynamic_links at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.4.0+2/
+[   +1 ms] Found plugin firebase_messaging at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-5.0.2/
+[   +5 ms] Found plugin flutter_crashlytics at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_crashlytics-1.0.0/
+[  +21 ms] Found plugin shared_preferences at /Users/lfnovo/Documents/dev/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.3+1/
+[  +55 ms] ro.hardware = ranchu
+[  +23 ms] Using hardware rendering with device Android SDK built for x86. If you get graphics artifacts, consider enabling software rendering with "--enable-software-rendering".
+[  +19 ms] Launching lib/main_a_stag.dart on Android SDK built for x86 in debug mode...
+[  +26 ms] Initializing gradle...
+[  +11 ms] Using gradle from /Users/lfnovo/Documents/dev/skore-flutter/android/gradlew.
+[ +375 ms] executing: /usr/bin/defaults read /Applications/Android Studio.app/Contents/Info
+[ +210 ms] Exit code 0 from: /usr/bin/defaults read /Applications/Android Studio.app/Contents/Info
+[        ] {
+               CFBundleDevelopmentRegion = English;
+               CFBundleDocumentTypes =     (
+                           {
+                       CFBundleTypeExtensions =             (
+                           ipr
+                       );
+                       CFBundleTypeIconFile = "studio.icns";
+                       CFBundleTypeName = "Android Studio Project File";
+                       CFBundleTypeRole = Editor;
+                   },
+                           {
+                       CFBundleTypeExtensions =             (
+                           "*"
+                       );
+                       CFBundleTypeName = "All documents";
+                       CFBundleTypeOSTypes =             (
+                           "****"
+                       );
+                       CFBundleTypeRole = Editor;
+                       LSTypeIsPackage = 0;
+                   }
+               );
+               CFBundleExecutable = studio;
+               CFBundleGetInfoString = "Android Studio 3.4, build AI-183.6156.11.34.5522156. Copyright JetBrains s.r.o., (c) 2000-2019";
+               CFBundleIconFile = "studio.icns";
+               CFBundleIdentifier = "com.google.android.studio";
+               CFBundleInfoDictionaryVersion = "6.0";
+               CFBundleName = "Android Studio";
+               CFBundlePackageType = APPL;
+               CFBundleShortVersionString = "3.4";
+               CFBundleSignature = "????";
+               CFBundleURLTypes =     (
+                           {
+                       CFBundleTypeRole = Editor;
+                       CFBundleURLName = Stacktrace;
+                       CFBundleURLSchemes =             (
+                           idea
+                       );
+                   }
+               );
+               CFBundleVersion = "AI-183.6156.11.34.5522156";
+               JVMOptions =     {
+                   ClassPath = "$APP_PACKAGE/Contents/lib/bootstrap.jar:$APP_PACKAGE/Contents/lib/extensions.jar:$APP_PACKAGE/Contents/lib/util.jar:$APP_PACKAGE/Contents/lib/jdom.jar:$APP_PACKAGE/Contents/lib/log4j.jar:$APP_PACKAGE/Contents/lib/trove4j.jar:$APP_PACKAGE/Contents/lib/jna.jar";
+                   JVMVersion = "1.8*,1.8+";
+                   MainClass = "com.intellij.idea.Main";
+                   Properties =         {
+                       "idea.executable" = studio;
+                       "idea.home.path" = "$APP_PACKAGE/Contents";
+                       "idea.java.redist" = Bundled;
+                       "idea.paths.selector" = "AndroidStudio3.4";
+                       "idea.platform.prefix" = AndroidStudio;
+                   };
+                   WorkingDirectory = "$APP_PACKAGE/Contents/bin";
+               };
+               LSApplicationCategoryType = "public.app-category.developer-tools";
+               LSArchitecturePriority =     (
+                   "x86_64"
+               );
+               LSMinimumSystemVersion = "10.8";
+               LSRequiresNativeExecution = YES;
+               NSHighResolutionCapable = 1;
+               NSSupportsAutomaticGraphicsSwitching = 1;
+           }
+[   +2 ms] executing: /usr/bin/defaults read /Applications/Android Studio.app/Contents/Info CFBundleShortVersionString
+[  +60 ms] Exit code 0 from: /usr/bin/defaults read /Applications/Android Studio.app/Contents/Info CFBundleShortVersionString
+[        ] 3.4
+[ +194 ms] executing: /Users/lfnovo/Documents/dev/skore-flutter/android/gradlew -v
+[+1016 ms] 
+           ------------------------------------------------------------
+           Gradle 5.1.1
+           ------------------------------------------------------------
+
+           Build time:   2019-01-10 23:05:02 UTC
+           Revision:     3c9abb645fb83932c44e8610642393ad62116807
+
+           Kotlin DSL:   1.1.1
+           Kotlin:       1.3.11
+           Groovy:       2.5.4
+           Ant:          Apache Ant(TM) version 1.9.13 compiled on July 10 2018
+           JVM:          1.8.0_152-release (JetBrains s.r.o 25.152-b01)
+           OS:           Mac OS X 10.14.5 x86_64
+[  +17 ms] Initializing gradle... (completed in 1.9s)
+[   +1 ms] Resolving dependencies...
+[        ] executing: [/Users/lfnovo/Documents/dev/skore-flutter/android/] /Users/lfnovo/Documents/dev/skore-flutter/android/gradlew app:properties
+[+3477 ms] 
+           > Configure project :app
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+           WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+           > Task :app:properties
+
+           ------------------------------------------------------------
+           Project :app
+           ------------------------------------------------------------
+
+           INTERNAL__CHECKED_MINIMUM_PLUGIN_VERSIONS: true
+           _internalAndroidGradlePluginDependencyCheckerRegistered: true
+           allprojects: [project ':app']
+           android: com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated@29ee4555
+           android.enableJetifier: true
+           android.useAndroidX: true
+           ant: org.gradle.api.internal.project.DefaultAntBuilder@54e78ecb
+           antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@2435609d
+           archivesBaseName: app
+           artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@6a08f2c6
+           asDynamicObject: DynamicObject for project ':app'
+           assemble: task ':app:assemble'
+           assembleAprodDebug: task ':app:assembleAprodDebug'
+           assembleAprodDynamicProfile: task ':app:assembleAprodDynamicProfile'
+           assembleAprodDynamicRelease: task ':app:assembleAprodDynamicRelease'
+           assembleAprodProfile: task ':app:assembleAprodProfile'
+           assembleAprodRelease: task ':app:assembleAprodRelease'
+           assembleAstagDebug: task ':app:assembleAstagDebug'
+           assembleAstagDynamicProfile: task ':app:assembleAstagDynamicProfile'
+           assembleAstagDynamicRelease: task ':app:assembleAstagDynamicRelease'
+           assembleAstagProfile: task ':app:assembleAstagProfile'
+           assembleAstagRelease: task ':app:assembleAstagRelease'
+           assembleBprodDebug: task ':app:assembleBprodDebug'
+           assembleBprodDynamicProfile: task ':app:assembleBprodDynamicProfile'
+           assembleBprodDynamicRelease: task ':app:assembleBprodDynamicRelease'
+           assembleBprodProfile: task ':app:assembleBprodProfile'
+           assembleBprodRelease: task ':app:assembleBprodRelease'
+           assembleBstagDebug: task ':app:assembleBstagDebug'
+           assembleBstagDynamicProfile: task ':app:assembleBstagDynamicProfile'
+           assembleBstagDynamicRelease: task ':app:assembleBstagDynamicRelease'
+           assembleBstagProfile: task ':app:assembleBstagProfile'
+           assembleBstagRelease: task ':app:assembleBstagRelease'
+           baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@3197c63f
+           buildDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app
+           buildFile: /Users/lfnovo/Documents/dev/skore-flutter/android/app/build.gradle
+           buildOutputs: BaseVariantOutput container
+           buildPath: :
+           buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@59ee9710
+           buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler@56502538
+           childProjects: {}
+           class: class org.gradle.api.internal.project.DefaultProject_Decorated
+           classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@7b6363f6
+           compileAprodDebugAndroidTestJavaWithJavac: task ':app:compileAprodDebugAndroidTestJavaWithJavac'
+           compileAprodDebugAndroidTestKotlin: task ':app:compileAprodDebugAndroidTestKotlin'
+           compileAprodDebugJavaWithJavac: task ':app:compileAprodDebugJavaWithJavac'
+           compileAprodDebugKotlin: task ':app:compileAprodDebugKotlin'
+           compileAprodDebugSources: task ':app:compileAprodDebugSources'
+           compileAprodDebugUnitTestJavaWithJavac: task ':app:compileAprodDebugUnitTestJavaWithJavac'
+           compileAprodDebugUnitTestKotlin: task ':app:compileAprodDebugUnitTestKotlin'
+           compileAprodDynamicProfileJavaWithJavac: task ':app:compileAprodDynamicProfileJavaWithJavac'
+           compileAprodDynamicProfileKotlin: task ':app:compileAprodDynamicProfileKotlin'
+           compileAprodDynamicProfileSources: task ':app:compileAprodDynamicProfileSources'
+           compileAprodDynamicProfileUnitTestJavaWithJavac: task ':app:compileAprodDynamicProfileUnitTestJavaWithJavac'
+           compileAprodDynamicProfileUnitTestKotlin: task ':app:compileAprodDynamicProfileUnitTestKotlin'
+           compileAprodDynamicReleaseJavaWithJavac: task ':app:compileAprodDynamicReleaseJavaWithJavac'
+           compileAprodDynamicReleaseKotlin: task ':app:compileAprodDynamicReleaseKotlin'
+           compileAprodDynamicReleaseSources: task ':app:compileAprodDynamicReleaseSources'
+           compileAprodDynamicReleaseUnitTestJavaWithJavac: task ':app:compileAprodDynamicReleaseUnitTestJavaWithJavac'
+           compileAprodDynamicReleaseUnitTestKotlin: task ':app:compileAprodDynamicReleaseUnitTestKotlin'
+           compileAprodProfileJavaWithJavac: task ':app:compileAprodProfileJavaWithJavac'
+           compileAprodProfileKotlin: task ':app:compileAprodProfileKotlin'
+           compileAprodProfileSources: task ':app:compileAprodProfileSources'
+           compileAprodProfileUnitTestJavaWithJavac: task ':app:compileAprodProfileUnitTestJavaWithJavac'
+           compileAprodProfileUnitTestKotlin: task ':app:compileAprodProfileUnitTestKotlin'
+           compileAprodReleaseJavaWithJavac: task ':app:compileAprodReleaseJavaWithJavac'
+           compileAprodReleaseKotlin: task ':app:compileAprodReleaseKotlin'
+           compileAprodReleaseSources: task ':app:compileAprodReleaseSources'
+           compileAprodReleaseUnitTestJavaWithJavac: task ':app:compileAprodReleaseUnitTestJavaWithJavac'
+           compileAprodReleaseUnitTestKotlin: task ':app:compileAprodReleaseUnitTestKotlin'
+           compileAstagDebugAndroidTestJavaWithJavac: task ':app:compileAstagDebugAndroidTestJavaWithJavac'
+           compileAstagDebugAndroidTestKotlin: task ':app:compileAstagDebugAndroidTestKotlin'
+           compileAstagDebugJavaWithJavac: task ':app:compileAstagDebugJavaWithJavac'
+           compileAstagDebugKotlin: task ':app:compileAstagDebugKotlin'
+           compileAstagDebugSources: task ':app:compileAstagDebugSources'
+           compileAstagDebugUnitTestJavaWithJavac: task ':app:compileAstagDebugUnitTestJavaWithJavac'
+           compileAstagDebugUnitTestKotlin: task ':app:compileAstagDebugUnitTestKotlin'
+           compileAstagDynamicProfileJavaWithJavac: task ':app:compileAstagDynamicProfileJavaWithJavac'
+           compileAstagDynamicProfileKotlin: task ':app:compileAstagDynamicProfileKotlin'
+           compileAstagDynamicProfileSources: task ':app:compileAstagDynamicProfileSources'
+           compileAstagDynamicProfileUnitTestJavaWithJavac: task ':app:compileAstagDynamicProfileUnitTestJavaWithJavac'
+           compileAstagDynamicProfileUnitTestKotlin: task ':app:compileAstagDynamicProfileUnitTestKotlin'
+           compileAstagDynamicReleaseJavaWithJavac: task ':app:compileAstagDynamicReleaseJavaWithJavac'
+           compileAstagDynamicReleaseKotlin: task ':app:compileAstagDynamicReleaseKotlin'
+           compileAstagDynamicReleaseSources: task ':app:compileAstagDynamicReleaseSources'
+           compileAstagDynamicReleaseUnitTestJavaWithJavac: task ':app:compileAstagDynamicReleaseUnitTestJavaWithJavac'
+           compileAstagDynamicReleaseUnitTestKotlin: task ':app:compileAstagDynamicReleaseUnitTestKotlin'
+           compileAstagProfileJavaWithJavac: task ':app:compileAstagProfileJavaWithJavac'
+           compileAstagProfileKotlin: task ':app:compileAstagProfileKotlin'
+           compileAstagProfileSources: task ':app:compileAstagProfileSources'
+           compileAstagProfileUnitTestJavaWithJavac: task ':app:compileAstagProfileUnitTestJavaWithJavac'
+           compileAstagProfileUnitTestKotlin: task ':app:compileAstagProfileUnitTestKotlin'
+           compileAstagReleaseJavaWithJavac: task ':app:compileAstagReleaseJavaWithJavac'
+           compileAstagReleaseKotlin: task ':app:compileAstagReleaseKotlin'
+           compileAstagReleaseSources: task ':app:compileAstagReleaseSources'
+           compileAstagReleaseUnitTestJavaWithJavac: task ':app:compileAstagReleaseUnitTestJavaWithJavac'
+           compileAstagReleaseUnitTestKotlin: task ':app:compileAstagReleaseUnitTestKotlin'
+           compileBprodDebugAndroidTestJavaWithJavac: task ':app:compileBprodDebugAndroidTestJavaWithJavac'
+           compileBprodDebugAndroidTestKotlin: task ':app:compileBprodDebugAndroidTestKotlin'
+           compileBprodDebugJavaWithJavac: task ':app:compileBprodDebugJavaWithJavac'
+           compileBprodDebugKotlin: task ':app:compileBprodDebugKotlin'
+           compileBprodDebugSources: task ':app:compileBprodDebugSources'
+           compileBprodDebugUnitTestJavaWithJavac: task ':app:compileBprodDebugUnitTestJavaWithJavac'
+           compileBprodDebugUnitTestKotlin: task ':app:compileBprodDebugUnitTestKotlin'
+           compileBprodDynamicProfileJavaWithJavac: task ':app:compileBprodDynamicProfileJavaWithJavac'
+           compileBprodDynamicProfileKotlin: task ':app:compileBprodDynamicProfileKotlin'
+           compileBprodDynamicProfileSources: task ':app:compileBprodDynamicProfileSources'
+           compileBprodDynamicProfileUnitTestJavaWithJavac: task ':app:compileBprodDynamicProfileUnitTestJavaWithJavac'
+           compileBprodDynamicProfileUnitTestKotlin: task ':app:compileBprodDynamicProfileUnitTestKotlin'
+           compileBprodDynamicReleaseJavaWithJavac: task ':app:compileBprodDynamicReleaseJavaWithJavac'
+           compileBprodDynamicReleaseKotlin: task ':app:compileBprodDynamicReleaseKotlin'
+           compileBprodDynamicReleaseSources: task ':app:compileBprodDynamicReleaseSources'
+           compileBprodDynamicReleaseUnitTestJavaWithJavac: task ':app:compileBprodDynamicReleaseUnitTestJavaWithJavac'
+           compileBprodDynamicReleaseUnitTestKotlin: task ':app:compileBprodDynamicReleaseUnitTestKotlin'
+           compileBprodProfileJavaWithJavac: task ':app:compileBprodProfileJavaWithJavac'
+           compileBprodProfileKotlin: task ':app:compileBprodProfileKotlin'
+           compileBprodProfileSources: task ':app:compileBprodProfileSources'
+           compileBprodProfileUnitTestJavaWithJavac: task ':app:compileBprodProfileUnitTestJavaWithJavac'
+           compileBprodProfileUnitTestKotlin: task ':app:compileBprodProfileUnitTestKotlin'
+           compileBprodReleaseJavaWithJavac: task ':app:compileBprodReleaseJavaWithJavac'
+           compileBprodReleaseKotlin: task ':app:compileBprodReleaseKotlin'
+           compileBprodReleaseSources: task ':app:compileBprodReleaseSources'
+           compileBprodReleaseUnitTestJavaWithJavac: task ':app:compileBprodReleaseUnitTestJavaWithJavac'
+           compileBprodReleaseUnitTestKotlin: task ':app:compileBprodReleaseUnitTestKotlin'
+           compileBstagDebugAndroidTestJavaWithJavac: task ':app:compileBstagDebugAndroidTestJavaWithJavac'
+           compileBstagDebugAndroidTestKotlin: task ':app:compileBstagDebugAndroidTestKotlin'
+           compileBstagDebugJavaWithJavac: task ':app:compileBstagDebugJavaWithJavac'
+           compileBstagDebugKotlin: task ':app:compileBstagDebugKotlin'
+           compileBstagDebugSources: task ':app:compileBstagDebugSources'
+           compileBstagDebugUnitTestJavaWithJavac: task ':app:compileBstagDebugUnitTestJavaWithJavac'
+           compileBstagDebugUnitTestKotlin: task ':app:compileBstagDebugUnitTestKotlin'
+           compileBstagDynamicProfileJavaWithJavac: task ':app:compileBstagDynamicProfileJavaWithJavac'
+           compileBstagDynamicProfileKotlin: task ':app:compileBstagDynamicProfileKotlin'
+           compileBstagDynamicProfileSources: task ':app:compileBstagDynamicProfileSources'
+           compileBstagDynamicProfileUnitTestJavaWithJavac: task ':app:compileBstagDynamicProfileUnitTestJavaWithJavac'
+           compileBstagDynamicProfileUnitTestKotlin: task ':app:compileBstagDynamicProfileUnitTestKotlin'
+           compileBstagDynamicReleaseJavaWithJavac: task ':app:compileBstagDynamicReleaseJavaWithJavac'
+           compileBstagDynamicReleaseKotlin: task ':app:compileBstagDynamicReleaseKotlin'
+           compileBstagDynamicReleaseSources: task ':app:compileBstagDynamicReleaseSources'
+           compileBstagDynamicReleaseUnitTestJavaWithJavac: task ':app:compileBstagDynamicReleaseUnitTestJavaWithJavac'
+           compileBstagDynamicReleaseUnitTestKotlin: task ':app:compileBstagDynamicReleaseUnitTestKotlin'
+           compileBstagProfileJavaWithJavac: task ':app:compileBstagProfileJavaWithJavac'
+           compileBstagProfileKotlin: task ':app:compileBstagProfileKotlin'
+           compileBstagProfileSources: task ':app:compileBstagProfileSources'
+           compileBstagProfileUnitTestJavaWithJavac: task ':app:compileBstagProfileUnitTestJavaWithJavac'
+           compileBstagProfileUnitTestKotlin: task ':app:compileBstagProfileUnitTestKotlin'
+           compileBstagReleaseJavaWithJavac: task ':app:compileBstagReleaseJavaWithJavac'
+           compileBstagReleaseKotlin: task ':app:compileBstagReleaseKotlin'
+           compileBstagReleaseSources: task ':app:compileBstagReleaseSources'
+           compileBstagReleaseUnitTestJavaWithJavac: task ':app:compileBstagReleaseUnitTestJavaWithJavac'
+           compileBstagReleaseUnitTestKotlin: task ':app:compileBstagReleaseUnitTestKotlin'
+           compileflutterBuildAprodDebugandroid-arm: task ':app:compileflutterBuildAprodDebugandroid-arm'
+           compileflutterBuildAprodDynamicProfileandroid-arm: task ':app:compileflutterBuildAprodDynamicProfileandroid-arm'
+           compileflutterBuildAprodDynamicReleaseandroid-arm: task ':app:compileflutterBuildAprodDynamicReleaseandroid-arm'
+           compileflutterBuildAprodProfileandroid-arm: task ':app:compileflutterBuildAprodProfileandroid-arm'
+           compileflutterBuildAprodReleaseandroid-arm: task ':app:compileflutterBuildAprodReleaseandroid-arm'
+           compileflutterBuildAprodReleaseandroid-arm64: task ':app:compileflutterBuildAprodReleaseandroid-arm64'
+           compileflutterBuildAstagDebugandroid-arm: task ':app:compileflutterBuildAstagDebugandroid-arm'
+           compileflutterBuildAstagDynamicProfileandroid-arm: task ':app:compileflutterBuildAstagDynamicProfileandroid-arm'
+           compileflutterBuildAstagDynamicReleaseandroid-arm: task ':app:compileflutterBuildAstagDynamicReleaseandroid-arm'
+           compileflutterBuildAstagProfileandroid-arm: task ':app:compileflutterBuildAstagProfileandroid-arm'
+           compileflutterBuildAstagReleaseandroid-arm: task ':app:compileflutterBuildAstagReleaseandroid-arm'
+           compileflutterBuildAstagReleaseandroid-arm64: task ':app:compileflutterBuildAstagReleaseandroid-arm64'
+           compileflutterBuildBprodDebugandroid-arm: task ':app:compileflutterBuildBprodDebugandroid-arm'
+           compileflutterBuildBprodDynamicProfileandroid-arm: task ':app:compileflutterBuildBprodDynamicProfileandroid-arm'
+           compileflutterBuildBprodDynamicReleaseandroid-arm: task ':app:compileflutterBuildBprodDynamicReleaseandroid-arm'
+           compileflutterBuildBprodProfileandroid-arm: task ':app:compileflutterBuildBprodProfileandroid-arm'
+           compileflutterBuildBprodReleaseandroid-arm: task ':app:compileflutterBuildBprodReleaseandroid-arm'
+           compileflutterBuildBprodReleaseandroid-arm64: task ':app:compileflutterBuildBprodReleaseandroid-arm64'
+           compileflutterBuildBstagDebugandroid-arm: task ':app:compileflutterBuildBstagDebugandroid-arm'
+           compileflutterBuildBstagDynamicProfileandroid-arm: task ':app:compileflutterBuildBstagDynamicProfileandroid-arm'
+           compileflutterBuildBstagDynamicReleaseandroid-arm: task ':app:compileflutterBuildBstagDynamicReleaseandroid-arm'
+           compileflutterBuildBstagProfileandroid-arm: task ':app:compileflutterBuildBstagProfileandroid-arm'
+           compileflutterBuildBstagReleaseandroid-arm: task ':app:compileflutterBuildBstagReleaseandroid-arm'
+           compileflutterBuildBstagReleaseandroid-arm64: task ':app:compileflutterBuildBstagReleaseandroid-arm64'
+           components: SoftwareComponentInternal set
+           configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@74caf49b
+           configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@59b1bb05
+           configurations: configuration container
+           convention: org.gradle.api.internal.plugins.DefaultConvention@e9f2cee
+           copyFlutterAssetsAprodDebug: task ':app:copyFlutterAssetsAprodDebug'
+           copyFlutterAssetsAprodDynamicProfile: task ':app:copyFlutterAssetsAprodDynamicProfile'
+           copyFlutterAssetsAprodDynamicRelease: task ':app:copyFlutterAssetsAprodDynamicRelease'
+           copyFlutterAssetsAprodProfile: task ':app:copyFlutterAssetsAprodProfile'
+           copyFlutterAssetsAprodRelease: task ':app:copyFlutterAssetsAprodRelease'
+           copyFlutterAssetsAstagDebug: task ':app:copyFlutterAssetsAstagDebug'
+           copyFlutterAssetsAstagDynamicProfile: task ':app:copyFlutterAssetsAstagDynamicProfile'
+           copyFlutterAssetsAstagDynamicRelease: task ':app:copyFlutterAssetsAstagDynamicRelease'
+           copyFlutterAssetsAstagProfile: task ':app:copyFlutterAssetsAstagProfile'
+           copyFlutterAssetsAstagRelease: task ':app:copyFlutterAssetsAstagRelease'
+           copyFlutterAssetsBprodDebug: task ':app:copyFlutterAssetsBprodDebug'
+           copyFlutterAssetsBprodDynamicProfile: task ':app:copyFlutterAssetsBprodDynamicProfile'
+           copyFlutterAssetsBprodDynamicRelease: task ':app:copyFlutterAssetsBprodDynamicRelease'
+           copyFlutterAssetsBprodProfile: task ':app:copyFlutterAssetsBprodProfile'
+           copyFlutterAssetsBprodRelease: task ':app:copyFlutterAssetsBprodRelease'
+           copyFlutterAssetsBstagDebug: task ':app:copyFlutterAssetsBstagDebug'
+           copyFlutterAssetsBstagDynamicProfile: task ':app:copyFlutterAssetsBstagDynamicProfile'
+           copyFlutterAssetsBstagDynamicRelease: task ':app:copyFlutterAssetsBstagDynamicRelease'
+           copyFlutterAssetsBstagProfile: task ':app:copyFlutterAssetsBstagProfile'
+           copyFlutterAssetsBstagRelease: task ':app:copyFlutterAssetsBstagRelease'
+           crashlytics: com.crashlytics.tools.gradle.CrashlyticsExtension_Decorated@6e838218
+           crashlyticsUploadDistributionAprodDebug: task ':app:crashlyticsUploadDistributionAprodDebug'
+           crashlyticsUploadDistributionAprodDynamicProfile: task ':app:crashlyticsUploadDistributionAprodDynamicProfile'
+           crashlyticsUploadDistributionAprodDynamicRelease: task ':app:crashlyticsUploadDistributionAprodDynamicRelease'
+           crashlyticsUploadDistributionAprodProfile: task ':app:crashlyticsUploadDistributionAprodProfile'
+           crashlyticsUploadDistributionAprodRelease: task ':app:crashlyticsUploadDistributionAprodRelease'
+           crashlyticsUploadDistributionAstagDebug: task ':app:crashlyticsUploadDistributionAstagDebug'
+           crashlyticsUploadDistributionAstagDynamicProfile: task ':app:crashlyticsUploadDistributionAstagDynamicProfile'
+           crashlyticsUploadDistributionAstagDynamicRelease: task ':app:crashlyticsUploadDistributionAstagDynamicRelease'
+           crashlyticsUploadDistributionAstagProfile: task ':app:crashlyticsUploadDistributionAstagProfile'
+           crashlyticsUploadDistributionAstagRelease: task ':app:crashlyticsUploadDistributionAstagRelease'
+           crashlyticsUploadDistributionBprodDebug: task ':app:crashlyticsUploadDistributionBprodDebug'
+           crashlyticsUploadDistributionBprodDynamicProfile: task ':app:crashlyticsUploadDistributionBprodDynamicProfile'
+           crashlyticsUploadDistributionBprodDynamicRelease: task ':app:crashlyticsUploadDistributionBprodDynamicRelease'
+           crashlyticsUploadDistributionBprodProfile: task ':app:crashlyticsUploadDistributionBprodProfile'
+           crashlyticsUploadDistributionBprodRelease: task ':app:crashlyticsUploadDistributionBprodRelease'
+           crashlyticsUploadDistributionBstagDebug: task ':app:crashlyticsUploadDistributionBstagDebug'
+           crashlyticsUploadDistributionBstagDynamicProfile: task ':app:crashlyticsUploadDistributionBstagDynamicProfile'
+           crashlyticsUploadDistributionBstagDynamicRelease: task ':app:crashlyticsUploadDistributionBstagDynamicRelease'
+           crashlyticsUploadDistributionBstagProfile: task ':app:crashlyticsUploadDistributionBstagProfile'
+           crashlyticsUploadDistributionBstagRelease: task ':app:crashlyticsUploadDistributionBstagRelease'
+           createMockableJar: task ':app:createMockableJar'
+           defaultArtifacts: org.gradle.api.internal.plugins.DefaultArtifactPublicationSet_Decorated@4dcecd7f
+           defaultTasks: []
+           deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@19733e50
+           dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@6e7c89cc
+           dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@1c9d5559
+           depth: 1
+           description: null
+           displayName: project ':app'
+           distsDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/distributions
+           distsDirName: distributions
+           docsDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/docs
+           docsDirName: docs
+           ext: org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension@2703c680
+           extensions: org.gradle.api.internal.plugins.DefaultConvention@e9f2cee
+           fabricGenerateResourcesAprodDebug: task ':app:fabricGenerateResourcesAprodDebug'
+           fabricGenerateResourcesAprodDynamicProfile: task ':app:fabricGenerateResourcesAprodDynamicProfile'
+           fabricGenerateResourcesAprodDynamicRelease: task ':app:fabricGenerateResourcesAprodDynamicRelease'
+           fabricGenerateResourcesAprodProfile: task ':app:fabricGenerateResourcesAprodProfile'
+           fabricGenerateResourcesAprodRelease: task ':app:fabricGenerateResourcesAprodRelease'
+           fabricGenerateResourcesAstagDebug: task ':app:fabricGenerateResourcesAstagDebug'
+           fabricGenerateResourcesAstagDynamicProfile: task ':app:fabricGenerateResourcesAstagDynamicProfile'
+           fabricGenerateResourcesAstagDynamicRelease: task ':app:fabricGenerateResourcesAstagDynamicRelease'
+           fabricGenerateResourcesAstagProfile: task ':app:fabricGenerateResourcesAstagProfile'
+           fabricGenerateResourcesAstagRelease: task ':app:fabricGenerateResourcesAstagRelease'
+           fabricGenerateResourcesBprodDebug: task ':app:fabricGenerateResourcesBprodDebug'
+           fabricGenerateResourcesBprodDynamicProfile: task ':app:fabricGenerateResourcesBprodDynamicProfile'
+           fabricGenerateResourcesBprodDynamicRelease: task ':app:fabricGenerateResourcesBprodDynamicRelease'
+           fabricGenerateResourcesBprodProfile: task ':app:fabricGenerateResourcesBprodProfile'
+           fabricGenerateResourcesBprodRelease: task ':app:fabricGenerateResourcesBprodRelease'
+           fabricGenerateResourcesBstagDebug: task ':app:fabricGenerateResourcesBstagDebug'
+           fabricGenerateResourcesBstagDynamicProfile: task ':app:fabricGenerateResourcesBstagDynamicProfile'
+           fabricGenerateResourcesBstagDynamicRelease: task ':app:fabricGenerateResourcesBstagDynamicRelease'
+           fabricGenerateResourcesBstagProfile: task ':app:fabricGenerateResourcesBstagProfile'
+           fabricGenerateResourcesBstagRelease: task ':app:fabricGenerateResourcesBstagRelease'
+           fileOperations: org.gradle.api.internal.file.DefaultFileOperations@2782fd8e
+           fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@2d3a225b
+           flutter: FlutterExtension_Decorated@5bfb9d38
+           flutterBuildX86Jar: task ':app:flutterBuildX86Jar'
+           googleServices: com.google.gms.googleservices.GoogleServicesPlugin$GoogleServicesPluginConfig_Decorated@62f56701
+           gradle: build 'android'
+           group: android
+           identityPath: :app
+           inheritedScope: org.gradle.api.internal.ExtensibleDynamicObject$InheritedDynamicObject@52ab885c
+           java: org.gradle.api.plugins.internal.DefaultJavaPluginExtension_Decorated@2eff50a8
+           kotlin: org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension_Decorated@296a1a12
+           kotlin.plugin.loaded.in.projects.1.3.31: :app
+           kotlin_version: 1.3.31
+           layout: org.gradle.api.internal.file.DefaultProjectLayout@606ead51
+           libsDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/libs
+           libsDirName: libs
+           lintVitalAprodRelease: task ':app:lintVitalAprodRelease'
+           lintVitalAstagRelease: task ':app:lintVitalAstagRelease'
+           lintVitalBprodRelease: task ':app:lintVitalBprodRelease'
+           lintVitalBstagRelease: task ':app:lintVitalBstagRelease'
+           listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@6e892068
+           logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@386dc366
+           logging: org.gradle.internal.logging.services.DefaultLoggingManager@3a274701
+           mergeAprodDebugAssets: task ':app:mergeAprodDebugAssets'
+           mergeAprodDebugResources: task ':app:mergeAprodDebugResources'
+           mergeAprodDynamicProfileAssets: task ':app:mergeAprodDynamicProfileAssets'
+           mergeAprodDynamicProfileResources: task ':app:mergeAprodDynamicProfileResources'
+           mergeAprodDynamicReleaseAssets: task ':app:mergeAprodDynamicReleaseAssets'
+           mergeAprodDynamicReleaseResources: task ':app:mergeAprodDynamicReleaseResources'
+           mergeAprodProfileAssets: task ':app:mergeAprodProfileAssets'
+           mergeAprodProfileResources: task ':app:mergeAprodProfileResources'
+           mergeAprodReleaseAssets: task ':app:mergeAprodReleaseAssets'
+           mergeAprodReleaseResources: task ':app:mergeAprodReleaseResources'
+           mergeAstagDebugAssets: task ':app:mergeAstagDebugAssets'
+           mergeAstagDebugResources: task ':app:mergeAstagDebugResources'
+           mergeAstagDynamicProfileAssets: task ':app:mergeAstagDynamicProfileAssets'
+           mergeAstagDynamicProfileResources: task ':app:mergeAstagDynamicProfileResources'
+           mergeAstagDynamicReleaseAssets: task ':app:mergeAstagDynamicReleaseAssets'
+           mergeAstagDynamicReleaseResources: task ':app:mergeAstagDynamicReleaseResources'
+           mergeAstagProfileAssets: task ':app:mergeAstagProfileAssets'
+           mergeAstagProfileResources: task ':app:mergeAstagProfileResources'
+           mergeAstagReleaseAssets: task ':app:mergeAstagReleaseAssets'
+           mergeAstagReleaseResources: task ':app:mergeAstagReleaseResources'
+           mergeBprodDebugAssets: task ':app:mergeBprodDebugAssets'
+           mergeBprodDebugResources: task ':app:mergeBprodDebugResources'
+           mergeBprodDynamicProfileAssets: task ':app:mergeBprodDynamicProfileAssets'
+           mergeBprodDynamicProfileResources: task ':app:mergeBprodDynamicProfileResources'
+           mergeBprodDynamicReleaseAssets: task ':app:mergeBprodDynamicReleaseAssets'
+           mergeBprodDynamicReleaseResources: task ':app:mergeBprodDynamicReleaseResources'
+           mergeBprodProfileAssets: task ':app:mergeBprodProfileAssets'
+           mergeBprodProfileResources: task ':app:mergeBprodProfileResources'
+           mergeBprodReleaseAssets: task ':app:mergeBprodReleaseAssets'
+           mergeBprodReleaseResources: task ':app:mergeBprodReleaseResources'
+           mergeBstagDebugAssets: task ':app:mergeBstagDebugAssets'
+           mergeBstagDebugResources: task ':app:mergeBstagDebugResources'
+           mergeBstagDynamicProfileAssets: task ':app:mergeBstagDynamicProfileAssets'
+           mergeBstagDynamicProfileResources: task ':app:mergeBstagDynamicProfileResources'
+           mergeBstagDynamicReleaseAssets: task ':app:mergeBstagDynamicReleaseAssets'
+           mergeBstagDynamicReleaseResources: task ':app:mergeBstagDynamicReleaseResources'
+           mergeBstagProfileAssets: task ':app:mergeBstagProfileAssets'
+           mergeBstagProfileResources: task ':app:mergeBstagProfileResources'
+           mergeBstagReleaseAssets: task ':app:mergeBstagReleaseAssets'
+           mergeBstagReleaseResources: task ':app:mergeBstagReleaseResources'
+           modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@436460dd
+           modelSchemaStore: org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaStore@1ff232be
+           module: org.gradle.api.internal.artifacts.ProjectBackedModule@3061bea7
+           mutationState: project :app
+           name: app
+           normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@567549c5
+           objects: org.gradle.api.internal.model.DefaultObjectFactory@71d8a903
+           org.gradle.jvmargs: -Xmx1536M
+           packFlutterSnapshotsAndLibsflutterBuildAprodDebug: task ':app:packFlutterSnapshotsAndLibsflutterBuildAprodDebug'
+           packFlutterSnapshotsAndLibsflutterBuildAprodDynamicProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildAprodDynamicProfile'
+           packFlutterSnapshotsAndLibsflutterBuildAprodDynamicRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildAprodDynamicRelease'
+           packFlutterSnapshotsAndLibsflutterBuildAprodProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildAprodProfile'
+           packFlutterSnapshotsAndLibsflutterBuildAprodRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildAprodRelease'
+           packFlutterSnapshotsAndLibsflutterBuildAstagDebug: task ':app:packFlutterSnapshotsAndLibsflutterBuildAstagDebug'
+           packFlutterSnapshotsAndLibsflutterBuildAstagDynamicProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildAstagDynamicProfile'
+           packFlutterSnapshotsAndLibsflutterBuildAstagDynamicRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildAstagDynamicRelease'
+           packFlutterSnapshotsAndLibsflutterBuildAstagProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildAstagProfile'
+           packFlutterSnapshotsAndLibsflutterBuildAstagRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildAstagRelease'
+           packFlutterSnapshotsAndLibsflutterBuildBprodDebug: task ':app:packFlutterSnapshotsAndLibsflutterBuildBprodDebug'
+           packFlutterSnapshotsAndLibsflutterBuildBprodDynamicProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildBprodDynamicProfile'
+           packFlutterSnapshotsAndLibsflutterBuildBprodDynamicRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildBprodDynamicRelease'
+           packFlutterSnapshotsAndLibsflutterBuildBprodProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildBprodProfile'
+           packFlutterSnapshotsAndLibsflutterBuildBprodRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildBprodRelease'
+           packFlutterSnapshotsAndLibsflutterBuildBstagDebug: task ':app:packFlutterSnapshotsAndLibsflutterBuildBstagDebug'
+           packFlutterSnapshotsAndLibsflutterBuildBstagDynamicProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildBstagDynamicProfile'
+           packFlutterSnapshotsAndLibsflutterBuildBstagDynamicRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildBstagDynamicRelease'
+           packFlutterSnapshotsAndLibsflutterBuildBstagProfile: task ':app:packFlutterSnapshotsAndLibsflutterBuildBstagProfile'
+           packFlutterSnapshotsAndLibsflutterBuildBstagRelease: task ':app:packFlutterSnapshotsAndLibsflutterBuildBstagRelease'
+           parent: root project 'android'
+           parentIdentifier: root project 'android'
+           path: :app
+           pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@7147f776
+           plugins: [org.gradle.buildinit.plugins.BuildInitPlugin@1145030b, org.gradle.buildinit.plugins.WrapperPlugin@6d824b87, org.gradle.api.plugins.HelpTasksPlugin@59a66785, com.android.build.gradle.api.AndroidBasePlugin@1794c780, org.gradle.language.base.plugins.LifecycleBasePlugin@2e70c322, org.gradle.api.plugins.BasePlugin@51d17b18, org.gradle.api.plugins.ReportingBasePlugin@3ba1b4e8, org.gradle.api.plugins.JavaBasePlugin@ab8dcdb, com.android.build.gradle.AppPlugin@22f9777d, com.crashlytics.tools.gradle.CrashlyticsPlugin@78aad181, org.jetbrains.kotlin.gradle.plugin.KotlinAndroidPluginWrapper@4e9a3c88, FlutterPlugin@2887f84, com.google.gms.googleservices.GoogleServicesPlugin@6ba3b237]
+           processAprodDebugGoogleServices: task ':app:processAprodDebugGoogleServices'
+           processAprodDebugManifest: task ':app:processAprodDebugManifest'
+           processAprodDebugResources: task ':app:processAprodDebugResources'
+           processAprodDynamicProfileGoogleServices: task ':app:processAprodDynamicProfileGoogleServices'
+           processAprodDynamicProfileManifest: task ':app:processAprodDynamicProfileManifest'
+           processAprodDynamicProfileResources: task ':app:processAprodDynamicProfileResources'
+           processAprodDynamicReleaseGoogleServices: task ':app:processAprodDynamicReleaseGoogleServices'
+           processAprodDynamicReleaseManifest: task ':app:processAprodDynamicReleaseManifest'
+           processAprodDynamicReleaseResources: task ':app:processAprodDynamicReleaseResources'
+           processAprodProfileGoogleServices: task ':app:processAprodProfileGoogleServices'
+           processAprodProfileManifest: task ':app:processAprodProfileManifest'
+           processAprodProfileResources: task ':app:processAprodProfileResources'
+           processAprodReleaseGoogleServices: task ':app:processAprodReleaseGoogleServices'
+           processAprodReleaseManifest: task ':app:processAprodReleaseManifest'
+           processAprodReleaseResources: task ':app:processAprodReleaseResources'
+           processAstagDebugGoogleServices: task ':app:processAstagDebugGoogleServices'
+           processAstagDebugManifest: task ':app:processAstagDebugManifest'
+           processAstagDebugResources: task ':app:processAstagDebugResources'
+           processAstagDynamicProfileGoogleServices: task ':app:processAstagDynamicProfileGoogleServices'
+           processAstagDynamicProfileManifest: task ':app:processAstagDynamicProfileManifest'
+           processAstagDynamicProfileResources: task ':app:processAstagDynamicProfileResources'
+           processAstagDynamicReleaseGoogleServices: task ':app:processAstagDynamicReleaseGoogleServices'
+           processAstagDynamicReleaseManifest: task ':app:processAstagDynamicReleaseManifest'
+           processAstagDynamicReleaseResources: task ':app:processAstagDynamicReleaseResources'
+           processAstagProfileGoogleServices: task ':app:processAstagProfileGoogleServices'
+           processAstagProfileManifest: task ':app:processAstagProfileManifest'
+           processAstagProfileResources: task ':app:processAstagProfileResources'
+           processAstagReleaseGoogleServices: task ':app:processAstagReleaseGoogleServices'
+           processAstagReleaseManifest: task ':app:processAstagReleaseManifest'
+           processAstagReleaseResources: task ':app:processAstagReleaseResources'
+           processBprodDebugGoogleServices: task ':app:processBprodDebugGoogleServices'
+           processBprodDebugManifest: task ':app:processBprodDebugManifest'
+           processBprodDebugResources: task ':app:processBprodDebugResources'
+           processBprodDynamicProfileGoogleServices: task ':app:processBprodDynamicProfileGoogleServices'
+           processBprodDynamicProfileManifest: task ':app:processBprodDynamicProfileManifest'
+           processBprodDynamicProfileResources: task ':app:processBprodDynamicProfileResources'
+           processBprodDynamicReleaseGoogleServices: task ':app:processBprodDynamicReleaseGoogleServices'
+           processBprodDynamicReleaseManifest: task ':app:processBprodDynamicReleaseManifest'
+           processBprodDynamicReleaseResources: task ':app:processBprodDynamicReleaseResources'
+           processBprodProfileGoogleServices: task ':app:processBprodProfileGoogleServices'
+           processBprodProfileManifest: task ':app:processBprodProfileManifest'
+           processBprodProfileResources: task ':app:processBprodProfileResources'
+           processBprodReleaseGoogleServices: task ':app:processBprodReleaseGoogleServices'
+           processBprodReleaseManifest: task ':app:processBprodReleaseManifest'
+           processBprodReleaseResources: task ':app:processBprodReleaseResources'
+           processBstagDebugGoogleServices: task ':app:processBstagDebugGoogleServices'
+           processBstagDebugManifest: task ':app:processBstagDebugManifest'
+           processBstagDebugResources: task ':app:processBstagDebugResources'
+           processBstagDynamicProfileGoogleServices: task ':app:processBstagDynamicProfileGoogleServices'
+           processBstagDynamicProfileManifest: task ':app:processBstagDynamicProfileManifest'
+           processBstagDynamicProfileResources: task ':app:processBstagDynamicProfileResources'
+           processBstagDynamicReleaseGoogleServices: task ':app:processBstagDynamicReleaseGoogleServices'
+           processBstagDynamicReleaseManifest: task ':app:processBstagDynamicReleaseManifest'
+           processBstagDynamicReleaseResources: task ':app:processBstagDynamicReleaseResources'
+           processBstagProfileGoogleServices: task ':app:processBstagProfileGoogleServices'
+           processBstagProfileManifest: task ':app:processBstagProfileManifest'
+           processBstagProfileResources: task ':app:processBstagProfileResources'
+           processBstagReleaseGoogleServices: task ':app:processBstagReleaseGoogleServices'
+           processBstagReleaseManifest: task ':app:processBstagReleaseManifest'
+           processBstagReleaseResources: task ':app:processBstagReleaseResources'
+           processOperations: org.gradle.api.internal.file.DefaultFileOperations@2782fd8e
+           project: project ':app'
+           projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@452b501b
+           projectDir: /Users/lfnovo/Documents/dev/skore-flutter/android/app
+           projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+           projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@5a4a5a4a
+           projectPath: :app
+           projectRegistry: org.gradle.api.internal.project.DefaultProjectRegistry@1bff7ad8
+           properties: {...}
+           providers: org.gradle.api.internal.provider.DefaultProviderFactory@1a22e68f
+           publicType: org.gradle.api.plugins.BasePluginConvention
+           reporting: org.gradle.api.reporting.ReportingExtension_Decorated@6d3b519a
+           reportsDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/reports
+           repositories: repository container
+           resourceLoader: org.gradle.internal.resource.transfer.DefaultUriTextResourceLoader@728f7fae
+           resources: org.gradle.api.internal.resources.DefaultResourceHandler@7a1fe3bf
+           rootDir: /Users/lfnovo/Documents/dev/skore-flutter/android
+           rootProject: root project 'android'
+           script: false
+           scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@1a567f9e
+           scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@2d564acf
+           serviceRegistryFactory: org.gradle.internal.service.scopes.ProjectScopeServices$4@242d22c4
+           services: ProjectScopeServices
+           sourceCompatibility: 1.8
+           sourceSets: SourceSet container
+           standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@3a274701
+           state: project state 'EXECUTED'
+           status: integration
+           subprojects: []
+           targetCompatibility: 1.8
+           tasks: task set
+           testReportDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/reports/tests
+           testReportDirName: tests
+           testResultsDir: /Users/lfnovo/Documents/dev/skore-flutter/build/app/test-results
+           testResultsDirName: test-results
+           version: unspecified
+           1 actionable task: 1 executed
+[   +7 ms] executing: [/Users/lfnovo/Documents/dev/skore-flutter/android/] /Users/lfnovo/Documents/dev/skore-flutter/android/gradlew app:tasks --all --console=auto
+[+3286 ms] 
+           > Configure project :app
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+           WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+           WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+           It will be removed at the end of 2019.
+           For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+           To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+           > Task :app:tasks
+
+           ------------------------------------------------------------
+           Tasks runnable from project :app
+           ------------------------------------------------------------
+
+           Android tasks
+           -------------
+           androidDependencies - Displays the Android dependencies of the project.
+           signingReport - Displays the signing info for the base and test modules
+           sourceSets - Prints out all the source sets defined in this project.
+
+           Build tasks
+           -----------
+           assemble - Assemble main outputs for all the variants.
+           assembleAndroidTest - Assembles all the Test applications.
+           assembleAprod - Assembles main outputs for all Aprod variants.
+           assembleAstag - Assembles main outputs for all Astag variants.
+           assembleBprod - Assembles main outputs for all Bprod variants.
+           assembleBstag - Assembles main outputs for all Bstag variants.
+           assembleDebug - Assembles main outputs for all Debug variants.
+           assembleDynamicProfile - Assembles main outputs for all DynamicProfile variants.
+           assembleDynamicRelease - Assembles main outputs for all DynamicRelease variants.
+           assembleProfile - Assembles main outputs for all Profile variants.
+           assembleRelease - Assembles main outputs for all Release variants.
+           build - Assembles and tests this project.
+           buildDependents - Assembles and tests this project and all projects that depend on it.
+           buildNeeded - Assembles and tests this project and all projects it depends on.
+           bundle - Assemble bundles for all the variants.
+           bundleAprod - Assembles bundles for all Aprod variants.
+           bundleAstag - Assembles bundles for all Astag variants.
+           bundleBprod - Assembles bundles for all Bprod variants.
+           bundleBstag - Assembles bundles for all Bstag variants.
+           bundleDebug - Assembles bundles for all Debug variants.
+           bundleDynamicProfile - Assembles bundles for all DynamicProfile variants.
+           bundleDynamicRelease - Assembles bundles for all DynamicRelease variants.
+           bundleProfile - Assembles bundles for all Profile variants.
+           bundleRelease - Assembles bundles for all Release variants.
+           clean - Deletes the build directory.
+           cleanBuildCache - Deletes the build cache directory.
+           compileAprodDebugAndroidTestSources
+           compileAprodDebugSources
+           compileAprodDebugUnitTestSources
+           compileAprodDynamicProfileSources
+           compileAprodDynamicProfileUnitTestSources
+           compileAprodDynamicReleaseSources
+           compileAprodDynamicReleaseUnitTestSources
+           compileAprodProfileSources
+           compileAprodProfileUnitTestSources
+           compileAprodReleaseSources
+           compileAprodReleaseUnitTestSources
+           compileAstagDebugAndroidTestSources
+           compileAstagDebugSources
+           compileAstagDebugUnitTestSources
+           compileAstagDynamicProfileSources
+           compileAstagDynamicProfileUnitTestSources
+           compileAstagDynamicReleaseSources
+           compileAstagDynamicReleaseUnitTestSources
+           compileAstagProfileSources
+           compileAstagProfileUnitTestSources
+           compileAstagReleaseSources
+           compileAstagReleaseUnitTestSources
+           compileBprodDebugAndroidTestSources
+           compileBprodDebugSources
+           compileBprodDebugUnitTestSources
+           compileBprodDynamicProfileSources
+           compileBprodDynamicProfileUnitTestSources
+           compileBprodDynamicReleaseSources
+           compileBprodDynamicReleaseUnitTestSources
+           compileBprodProfileSources
+           compileBprodProfileUnitTestSources
+           compileBprodReleaseSources
+           compileBprodReleaseUnitTestSources
+           compileBstagDebugAndroidTestSources
+           compileBstagDebugSources
+           compileBstagDebugUnitTestSources
+           compileBstagDynamicProfileSources
+           compileBstagDynamicProfileUnitTestSources
+           compileBstagDynamicReleaseSources
+           compileBstagDynamicReleaseUnitTestSources
+           compileBstagProfileSources
+           compileBstagProfileUnitTestSources
+           compileBstagReleaseSources
+           compileBstagReleaseUnitTestSources
+
+           Cleanup tasks
+           -------------
+           lintFix - Runs lint on all variants and applies any safe suggestions to the source code.
+
+           Help tasks
+           ----------
+           buildEnvironment - Displays all buildscript dependencies declared in project ':app'.
+           components - Displays the components produced by project ':app'. [incubating]
+           dependencies - Displays all dependencies declared in project ':app'.
+           dependencyInsight - Displays the insight into a specific dependency in project ':app'.
+           dependentComponents - Displays the dependent components of components in project ':app'. [incubating]
+           help - Displays a help message.
+           model - Displays the configuration model of project ':app'. [incubating]
+           projects - Displays the sub-projects of project ':app'.
+           properties - Displays the properties of project ':app'.
+           tasks - Displays the tasks runnable from project ':app'.
+
+           Install tasks
+           -------------
+           installAprodDebug - Installs the DebugAprod build.
+           installAprodDebugAndroidTest - Installs the android (on device) tests for the AprodDebug build.
+           installAprodDynamicProfile - Installs the DynamicProfileAprod build.
+           installAprodDynamicRelease - Installs the DynamicReleaseAprod build.
+           installAprodProfile - Installs the ProfileAprod build.
+           installAprodRelease - Installs the ReleaseAprod build.
+           installAstagDebug - Installs the DebugAstag build.
+           installAstagDebugAndroidTest - Installs the android (on device) tests for the AstagDebug build.
+           installAstagDynamicProfile - Installs the DynamicProfileAstag build.
+           installAstagDynamicRelease - Installs the DynamicReleaseAstag build.
+           installAstagProfile - Installs the ProfileAstag build.
+           installAstagRelease - Installs the ReleaseAstag build.
+           installBprodDebug - Installs the DebugBprod build.
+           installBprodDebugAndroidTest - Installs the android (on device) tests for the BprodDebug build.
+           installBprodDynamicProfile - Installs the DynamicProfileBprod build.
+           installBprodDynamicRelease - Installs the DynamicReleaseBprod build.
+           installBprodProfile - Installs the ProfileBprod build.
+           installBprodRelease - Installs the ReleaseBprod build.
+           installBstagDebug - Installs the DebugBstag build.
+           installBstagDebugAndroidTest - Installs the android (on device) tests for the BstagDebug build.
+           installBstagDynamicProfile - Installs the DynamicProfileBstag build.
+           installBstagDynamicRelease - Installs the DynamicReleaseBstag build.
+           installBstagProfile - Installs the ProfileBstag build.
+           installBstagRelease - Installs the ReleaseBstag build.
+           uninstallAll - Uninstall all applications.
+           uninstallAprodDebug - Uninstalls the DebugAprod build.
+           uninstallAprodDebugAndroidTest - Uninstalls the android (on device) tests for the AprodDebug build.
+           uninstallAprodDynamicProfile - Uninstalls the DynamicProfileAprod build.
+           uninstallAprodDynamicRelease - Uninstalls the DynamicReleaseAprod build.
+           uninstallAprodProfile - Uninstalls the ProfileAprod build.
+           uninstallAprodRelease - Uninstalls the ReleaseAprod build.
+           uninstallAstagDebug - Uninstalls the DebugAstag build.
+           uninstallAstagDebugAndroidTest - Uninstalls the android (on device) tests for the AstagDebug build.
+           uninstallAstagDynamicProfile - Uninstalls the DynamicProfileAstag build.
+           uninstallAstagDynamicRelease - Uninstalls the DynamicReleaseAstag build.
+           uninstallAstagProfile - Uninstalls the ProfileAstag build.
+           uninstallAstagRelease - Uninstalls the ReleaseAstag build.
+           uninstallBprodDebug - Uninstalls the DebugBprod build.
+           uninstallBprodDebugAndroidTest - Uninstalls the android (on device) tests for the BprodDebug build.
+           uninstallBprodDynamicProfile - Uninstalls the DynamicProfileBprod build.
+           uninstallBprodDynamicRelease - Uninstalls the DynamicReleaseBprod build.
+           uninstallBprodProfile - Uninstalls the ProfileBprod build.
+           uninstallBprodRelease - Uninstalls the ReleaseBprod build.
+           uninstallBstagDebug - Uninstalls the DebugBstag build.
+           uninstallBstagDebugAndroidTest - Uninstalls the android (on device) tests for the BstagDebug build.
+           uninstallBstagDynamicProfile - Uninstalls the DynamicProfileBstag build.
+           uninstallBstagDynamicRelease - Uninstalls the DynamicReleaseBstag build.
+           uninstallBstagProfile - Uninstalls the ProfileBstag build.
+           uninstallBstagRelease - Uninstalls the ReleaseBstag build.
+
+           Verification tasks
+           ------------------
+           check - Runs all checks.
+           connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+           connectedAprodDebugAndroidTest - Installs and runs the tests for aprodDebug on connected devices.
+           connectedAstagDebugAndroidTest - Installs and runs the tests for astagDebug on connected devices.
+           connectedBprodDebugAndroidTest - Installs and runs the tests for bprodDebug on connected devices.
+           connectedBstagDebugAndroidTest - Installs and runs the tests for bstagDebug on connected devices.
+           connectedCheck - Runs all device checks on currently connected devices.
+           deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+           deviceCheck - Runs all device checks using Device Providers and Test Servers.
+           lint - Runs lint on all variants.
+           lintAprodDebug - Runs lint on the AprodDebug build.
+           lintAprodDynamicProfile - Runs lint on the AprodDynamicProfile build.
+           lintAprodDynamicRelease - Runs lint on the AprodDynamicRelease build.
+           lintAprodProfile - Runs lint on the AprodProfile build.
+           lintAprodRelease - Runs lint on the AprodRelease build.
+           lintAstagDebug - Runs lint on the AstagDebug build.
+           lintAstagDynamicProfile - Runs lint on the AstagDynamicProfile build.
+           lintAstagDynamicRelease - Runs lint on the AstagDynamicRelease build.
+           lintAstagProfile - Runs lint on the AstagProfile build.
+           lintAstagRelease - Runs lint on the AstagRelease build.
+           lintBprodDebug - Runs lint on the BprodDebug build.
+           lintBprodDynamicProfile - Runs lint on the BprodDynamicProfile build.
+           lintBprodDynamicRelease - Runs lint on the BprodDynamicRelease build.
+           lintBprodProfile - Runs lint on the BprodProfile build.
+           lintBprodRelease - Runs lint on the BprodRelease build.
+           lintBstagDebug - Runs lint on the BstagDebug build.
+           lintBstagDynamicProfile - Runs lint on the BstagDynamicProfile build.
+           lintBstagDynamicRelease - Runs lint on the BstagDynamicRelease build.
+           lintBstagProfile - Runs lint on the BstagProfile build.
+           lintBstagRelease - Runs lint on the BstagRelease build.
+           lintVitalAprodRelease - Runs lint on just the fatal issues in the aprodRelease build.
+           lintVitalAstagRelease - Runs lint on just the fatal issues in the astagRelease build.
+           lintVitalBprodRelease - Runs lint on just the fatal issues in the bprodRelease build.
+           lintVitalBstagRelease - Runs lint on just the fatal issues in the bstagRelease build.
+           test - Run unit tests for all variants.
+           testAprodDebugUnitTest - Run unit tests for the aprodDebug build.
+           testAprodDynamicProfileUnitTest - Run unit tests for the aprodDynamicProfile build.
+           testAprodDynamicReleaseUnitTest - Run unit tests for the aprodDynamicRelease build.
+           testAprodProfileUnitTest - Run unit tests for the aprodProfile build.
+           testAprodReleaseUnitTest - Run unit tests for the aprodRelease build.
+           testAstagDebugUnitTest - Run unit tests for the astagDebug build.
+           testAstagDynamicProfileUnitTest - Run unit tests for the astagDynamicProfile build.
+           testAstagDynamicReleaseUnitTest - Run unit tests for the astagDynamicRelease build.
+           testAstagProfileUnitTest - Run unit tests for the astagProfile build.
+           testAstagReleaseUnitTest - Run unit tests for the astagRelease build.
+           testBprodDebugUnitTest - Run unit tests for the bprodDebug build.
+           testBprodDynamicProfileUnitTest - Run unit tests for the bprodDynamicProfile build.
+           testBprodDynamicReleaseUnitTest - Run unit tests for the bprodDynamicRelease build.
+           testBprodProfileUnitTest - Run unit tests for the bprodProfile build.
+           testBprodReleaseUnitTest - Run unit tests for the bprodRelease build.
+           testBstagDebugUnitTest - Run unit tests for the bstagDebug build.
+           testBstagDynamicProfileUnitTest - Run unit tests for the bstagDynamicProfile build.
+           testBstagDynamicReleaseUnitTest - Run unit tests for the bstagDynamicRelease build.
+           testBstagProfileUnitTest - Run unit tests for the bstagProfile build.
+           testBstagReleaseUnitTest - Run unit tests for the bstagRelease build.
+
+           Other tasks
+           -----------
+           assembleAprodDebug - Assembles main output for variant aprodDebug
+           assembleAprodDebugAndroidTest - Assembles main output for variant aprodDebugAndroidTest
+           assembleAprodDebugUnitTest - Assembles main output for variant aprodDebugUnitTest
+           assembleAprodDynamicProfile - Assembles main output for variant aprodDynamicProfile
+           assembleAprodDynamicProfileUnitTest - Assembles main output for variant aprodDynamicProfileUnitTest
+           assembleAprodDynamicRelease - Assembles main output for variant aprodDynamicRelease
+           assembleAprodDynamicReleaseUnitTest - Assembles main output for variant aprodDynamicReleaseUnitTest
+           assembleAprodProfile - Assembles main output for variant aprodProfile
+           assembleAprodProfileUnitTest - Assembles main output for variant aprodProfileUnitTest
+           assembleAprodRelease - Assembles main output for variant aprodRelease
+           assembleAprodReleaseUnitTest - Assembles main output for variant aprodReleaseUnitTest
+           assembleAstagDebug - Assembles main output for variant astagDebug
+           assembleAstagDebugAndroidTest - Assembles main output for variant astagDebugAndroidTest
+           assembleAstagDebugUnitTest - Assembles main output for variant astagDebugUnitTest
+           assembleAstagDynamicProfile - Assembles main output for variant astagDynamicProfile
+           assembleAstagDynamicProfileUnitTest - Assembles main output for variant astagDynamicProfileUnitTest
+           assembleAstagDynamicRelease - Assembles main output for variant astagDynamicRelease
+           assembleAstagDynamicReleaseUnitTest - Assembles main output for variant astagDynamicReleaseUnitTest
+           assembleAstagProfile - Assembles main output for variant astagProfile
+           assembleAstagProfileUnitTest - Assembles main output for variant astagProfileUnitTest
+           assembleAstagRelease - Assembles main output for variant astagRelease
+           assembleAstagReleaseUnitTest - Assembles main output for variant astagReleaseUnitTest
+           assembleBprodDebug - Assembles main output for variant bprodDebug
+           assembleBprodDebugAndroidTest - Assembles main output for variant bprodDebugAndroidTest
+           assembleBprodDebugUnitTest - Assembles main output for variant bprodDebugUnitTest
+           assembleBprodDynamicProfile - Assembles main output for variant bprodDynamicProfile
+           assembleBprodDynamicProfileUnitTest - Assembles main output for variant bprodDynamicProfileUnitTest
+           assembleBprodDynamicRelease - Assembles main output for variant bprodDynamicRelease
+           assembleBprodDynamicReleaseUnitTest - Assembles main output for variant bprodDynamicReleaseUnitTest
+           assembleBprodProfile - Assembles main output for variant bprodProfile
+           assembleBprodProfileUnitTest - Assembles main output for variant bprodProfileUnitTest
+           assembleBprodRelease - Assembles main output for variant bprodRelease
+           assembleBprodReleaseUnitTest - Assembles main output for variant bprodReleaseUnitTest
+           assembleBstagDebug - Assembles main output for variant bstagDebug
+           assembleBstagDebugAndroidTest - Assembles main output for variant bstagDebugAndroidTest
+           assembleBstagDebugUnitTest - Assembles main output for variant bstagDebugUnitTest
+           assembleBstagDynamicProfile - Assembles main output for variant bstagDynamicProfile
+           assembleBstagDynamicProfileUnitTest - Assembles main output for variant bstagDynamicProfileUnitTest
+           assembleBstagDynamicRelease - Assembles main output for variant bstagDynamicRelease
+           assembleBstagDynamicReleaseUnitTest - Assembles main output for variant bstagDynamicReleaseUnitTest
+           assembleBstagProfile - Assembles main output for variant bstagProfile
+           assembleBstagProfileUnitTest - Assembles main output for variant bstagProfileUnitTest
+           assembleBstagRelease - Assembles main output for variant bstagRelease
+           assembleBstagReleaseUnitTest - Assembles main output for variant bstagReleaseUnitTest
+           buildAprodDebugPreBundle
+           buildAprodDynamicProfilePreBundle
+           buildAprodDynamicReleasePreBundle
+           buildAprodProfilePreBundle
+           buildAprodReleasePreBundle
+           buildAstagDebugPreBundle
+           buildAstagDynamicProfilePreBundle
+           buildAstagDynamicReleasePreBundle
+           buildAstagProfilePreBundle
+           buildAstagReleasePreBundle
+           buildBprodDebugPreBundle
+           buildBprodDynamicProfilePreBundle
+           buildBprodDynamicReleasePreBundle
+           buildBprodProfilePreBundle
+           buildBprodReleasePreBundle
+           buildBstagDebugPreBundle
+           buildBstagDynamicProfilePreBundle
+           buildBstagDynamicReleasePreBundle
+           buildBstagProfilePreBundle
+           buildBstagReleasePreBundle
+           bundleAprodDebug - Assembles bundle for variant aprodDebug
+           bundleAprodDebugAndroidTestClasses
+           bundleAprodDebugAndroidTestResources
+           bundleAprodDebugClasses
+           bundleAprodDebugResources
+           bundleAprodDebugUnitTestClasses
+           bundleAprodDynamicProfile - Assembles bundle for variant aprodDynamicProfile
+           bundleAprodDynamicProfileClasses
+           bundleAprodDynamicProfileResources
+           bundleAprodDynamicProfileUnitTestClasses
+           bundleAprodDynamicRelease - Assembles bundle for variant aprodDynamicRelease
+           bundleAprodDynamicReleaseClasses
+           bundleAprodDynamicReleaseResources
+           bundleAprodDynamicReleaseUnitTestClasses
+           bundleAprodProfile - Assembles bundle for variant aprodProfile
+           bundleAprodProfileClasses
+           bundleAprodProfileResources
+           bundleAprodProfileUnitTestClasses
+           bundleAprodRelease - Assembles bundle for variant aprodRelease
+           bundleAprodReleaseClasses
+           bundleAprodReleaseResources
+           bundleAprodReleaseUnitTestClasses
+           bundleAstagDebug - Assembles bundle for variant astagDebug
+           bundleAstagDebugAndroidTestClasses
+           bundleAstagDebugAndroidTestResources
+           bundleAstagDebugClasses
+           bundleAstagDebugResources
+           bundleAstagDebugUnitTestClasses
+           bundleAstagDynamicProfile - Assembles bundle for variant astagDynamicProfile
+           bundleAstagDynamicProfileClasses
+           bundleAstagDynamicProfileResources
+           bundleAstagDynamicProfileUnitTestClasses
+           bundleAstagDynamicRelease - Assembles bundle for variant astagDynamicRelease
+           bundleAstagDynamicReleaseClasses
+           bundleAstagDynamicReleaseResources
+           bundleAstagDynamicReleaseUnitTestClasses
+           bundleAstagProfile - Assembles bundle for variant astagProfile
+           bundleAstagProfileClasses
+           bundleAstagProfileResources
+           bundleAstagProfileUnitTestClasses
+           bundleAstagRelease - Assembles bundle for variant astagRelease
+           bundleAstagReleaseClasses
+           bundleAstagReleaseResources
+           bundleAstagReleaseUnitTestClasses
+           bundleBprodDebug - Assembles bundle for variant bprodDebug
+           bundleBprodDebugAndroidTestClasses
+           bundleBprodDebugAndroidTestResources
+           bundleBprodDebugClasses
+           bundleBprodDebugResources
+           bundleBprodDebugUnitTestClasses
+           bundleBprodDynamicProfile - Assembles bundle for variant bprodDynamicProfile
+           bundleBprodDynamicProfileClasses
+           bundleBprodDynamicProfileResources
+           bundleBprodDynamicProfileUnitTestClasses
+           bundleBprodDynamicRelease - Assembles bundle for variant bprodDynamicRelease
+           bundleBprodDynamicReleaseClasses
+           bundleBprodDynamicReleaseResources
+           bundleBprodDynamicReleaseUnitTestClasses
+           bundleBprodProfile - Assembles bundle for variant bprodProfile
+           bundleBprodProfileClasses
+           bundleBprodProfileResources
+           bundleBprodProfileUnitTestClasses
+           bundleBprodRelease - Assembles bundle for variant bprodRelease
+           bundleBprodReleaseClasses
+           bundleBprodReleaseResources
+           bundleBprodReleaseUnitTestClasses
+           bundleBstagDebug - Assembles bundle for variant bstagDebug
+           bundleBstagDebugAndroidTestClasses
+           bundleBstagDebugAndroidTestResources
+           bundleBstagDebugClasses
+           bundleBstagDebugResources
+           bundleBstagDebugUnitTestClasses
+           bundleBstagDynamicProfile - Assembles bundle for variant bstagDynamicProfile
+           bundleBstagDynamicProfileClasses
+           bundleBstagDynamicProfileResources
+           bundleBstagDynamicProfileUnitTestClasses
+           bundleBstagDynamicRelease - Assembles bundle for variant bstagDynamicRelease
+           bundleBstagDynamicReleaseClasses
+           bundleBstagDynamicReleaseResources
+           bundleBstagDynamicReleaseUnitTestClasses
+           bundleBstagProfile - Assembles bundle for variant bstagProfile
+           bundleBstagProfileClasses
+           bundleBstagProfileResources
+           bundleBstagProfileUnitTestClasses
+           bundleBstagRelease - Assembles bundle for variant bstagRelease
+           bundleBstagReleaseClasses
+           bundleBstagReleaseResources
+           bundleBstagReleaseUnitTestClasses
+           checkAprodDebugAndroidTestDuplicateClasses
+           checkAprodDebugDuplicateClasses
+           checkAprodDebugManifest
+           checkAprodDynamicProfileDuplicateClasses
+           checkAprodDynamicProfileManifest
+           checkAprodDynamicReleaseDuplicateClasses
+           checkAprodDynamicReleaseManifest
+           checkAprodProfileDuplicateClasses
+           checkAprodProfileManifest
+           checkAprodReleaseDuplicateClasses
+           checkAprodReleaseManifest
+           checkAstagDebugAndroidTestDuplicateClasses
+           checkAstagDebugDuplicateClasses
+           checkAstagDebugManifest
+           checkAstagDynamicProfileDuplicateClasses
+           checkAstagDynamicProfileManifest
+           checkAstagDynamicReleaseDuplicateClasses
+           checkAstagDynamicReleaseManifest
+           checkAstagProfileDuplicateClasses
+           checkAstagProfileManifest
+           checkAstagReleaseDuplicateClasses
+           checkAstagReleaseManifest
+           checkBprodDebugAndroidTestDuplicateClasses
+           checkBprodDebugDuplicateClasses
+           checkBprodDebugManifest
+           checkBprodDynamicProfileDuplicateClasses
+           checkBprodDynamicProfileManifest
+           checkBprodDynamicReleaseDuplicateClasses
+           checkBprodDynamicReleaseManifest
+           checkBprodProfileDuplicateClasses
+           checkBprodProfileManifest
+           checkBprodReleaseDuplicateClasses
+           checkBprodReleaseManifest
+           checkBstagDebugAndroidTestDuplicateClasses
+           checkBstagDebugDuplicateClasses
+           checkBstagDebugManifest
+           checkBstagDynamicProfileDuplicateClasses
+           checkBstagDynamicProfileManifest
+           checkBstagDynamicReleaseDuplicateClasses
+           checkBstagDynamicReleaseManifest
+           checkBstagProfileDuplicateClasses
+           checkBstagProfileManifest
+           checkBstagReleaseDuplicateClasses
+           checkBstagReleaseManifest
+           collectAprodDebugDependencies
+           collectAprodDynamicProfileDependencies
+           collectAprodDynamicReleaseDependencies
+           collectAprodProfileDependencies
+           collectAprodReleaseDependencies
+           collectAstagDebugDependencies
+           collectAstagDynamicProfileDependencies
+           collectAstagDynamicReleaseDependencies
+           collectAstagProfileDependencies
+           collectAstagReleaseDependencies
+           collectBprodDebugDependencies
+           collectBprodDynamicProfileDependencies
+           collectBprodDynamicReleaseDependencies
+           collectBprodProfileDependencies
+           collectBprodReleaseDependencies
+           collectBstagDebugDependencies
+           collectBstagDynamicProfileDependencies
+           collectBstagDynamicReleaseDependencies
+           collectBstagProfileDependencies
+           collectBstagReleaseDependencies
+           compileAprodDebugAidl
+           compileAprodDebugAndroidTestAidl
+           compileAprodDebugAndroidTestJavaWithJavac
+           compileAprodDebugAndroidTestKotlin - Compiles the aprodDebugAndroidTest kotlin.
+           compileAprodDebugAndroidTestRenderscript
+           compileAprodDebugAndroidTestShaders
+           compileAprodDebugJavaWithJavac
+           compileAprodDebugKotlin - Compiles the aprodDebug kotlin.
+           compileAprodDebugRenderscript
+           compileAprodDebugShaders
+           compileAprodDebugUnitTestJavaWithJavac
+           compileAprodDebugUnitTestKotlin - Compiles the aprodDebugUnitTest kotlin.
+           compileAprodDynamicProfileAidl
+           compileAprodDynamicProfileJavaWithJavac
+           compileAprodDynamicProfileKotlin - Compiles the aprodDynamicProfile kotlin.
+           compileAprodDynamicProfileRenderscript
+           compileAprodDynamicProfileShaders
+           compileAprodDynamicProfileUnitTestJavaWithJavac
+           compileAprodDynamicProfileUnitTestKotlin - Compiles the aprodDynamicProfileUnitTest kotlin.
+           compileAprodDynamicReleaseAidl
+           compileAprodDynamicReleaseJavaWithJavac
+           compileAprodDynamicReleaseKotlin - Compiles the aprodDynamicRelease kotlin.
+           compileAprodDynamicReleaseRenderscript
+           compileAprodDynamicReleaseShaders
+           compileAprodDynamicReleaseUnitTestJavaWithJavac
+           compileAprodDynamicReleaseUnitTestKotlin - Compiles the aprodDynamicReleaseUnitTest kotlin.
+           compileAprodProfileAidl
+           compileAprodProfileJavaWithJavac
+           compileAprodProfileKotlin - Compiles the aprodProfile kotlin.
+           compileAprodProfileRenderscript
+           compileAprodProfileShaders
+           compileAprodProfileUnitTestJavaWithJavac
+           compileAprodProfileUnitTestKotlin - Compiles the aprodProfileUnitTest kotlin.
+           compileAprodReleaseAidl
+           compileAprodReleaseJavaWithJavac
+           compileAprodReleaseKotlin - Compiles the aprodRelease kotlin.
+           compileAprodReleaseRenderscript
+           compileAprodReleaseShaders
+           compileAprodReleaseUnitTestJavaWithJavac
+           compileAprodReleaseUnitTestKotlin - Compiles the aprodReleaseUnitTest kotlin.
+           compileAstagDebugAidl
+           compileAstagDebugAndroidTestAidl
+           compileAstagDebugAndroidTestJavaWithJavac
+           compileAstagDebugAndroidTestKotlin - Compiles the astagDebugAndroidTest kotlin.
+           compileAstagDebugAndroidTestRenderscript
+           compileAstagDebugAndroidTestShaders
+           compileAstagDebugJavaWithJavac
+           compileAstagDebugKotlin - Compiles the astagDebug kotlin.
+           compileAstagDebugRenderscript
+           compileAstagDebugShaders
+           compileAstagDebugUnitTestJavaWithJavac
+           compileAstagDebugUnitTestKotlin - Compiles the astagDebugUnitTest kotlin.
+           compileAstagDynamicProfileAidl
+           compileAstagDynamicProfileJavaWithJavac
+           compileAstagDynamicProfileKotlin - Compiles the astagDynamicProfile kotlin.
+           compileAstagDynamicProfileRenderscript
+           compileAstagDynamicProfileShaders
+           compileAstagDynamicProfileUnitTestJavaWithJavac
+           compileAstagDynamicProfileUnitTestKotlin - Compiles the astagDynamicProfileUnitTest kotlin.
+           compileAstagDynamicReleaseAidl
+           compileAstagDynamicReleaseJavaWithJavac
+           compileAstagDynamicReleaseKotlin - Compiles the astagDynamicRelease kotlin.
+           compileAstagDynamicReleaseRenderscript
+           compileAstagDynamicReleaseShaders
+           compileAstagDynamicReleaseUnitTestJavaWithJavac
+           compileAstagDynamicReleaseUnitTestKotlin - Compiles the astagDynamicReleaseUnitTest kotlin.
+           compileAstagProfileAidl
+           compileAstagProfileJavaWithJavac
+           compileAstagProfileKotlin - Compiles the astagProfile kotlin.
+           compileAstagProfileRenderscript
+           compileAstagProfileShaders
+           compileAstagProfileUnitTestJavaWithJavac
+           compileAstagProfileUnitTestKotlin - Compiles the astagProfileUnitTest kotlin.
+           compileAstagReleaseAidl
+           compileAstagReleaseJavaWithJavac
+           compileAstagReleaseKotlin - Compiles the astagRelease kotlin.
+           compileAstagReleaseRenderscript
+           compileAstagReleaseShaders
+           compileAstagReleaseUnitTestJavaWithJavac
+           compileAstagReleaseUnitTestKotlin - Compiles the astagReleaseUnitTest kotlin.
+           compileBprodDebugAidl
+           compileBprodDebugAndroidTestAidl
+           compileBprodDebugAndroidTestJavaWithJavac
+           compileBprodDebugAndroidTestKotlin - Compiles the bprodDebugAndroidTest kotlin.
+           compileBprodDebugAndroidTestRenderscript
+           compileBprodDebugAndroidTestShaders
+           compileBprodDebugJavaWithJavac
+           compileBprodDebugKotlin - Compiles the bprodDebug kotlin.
+           compileBprodDebugRenderscript
+           compileBprodDebugShaders
+           compileBprodDebugUnitTestJavaWithJavac
+           compileBprodDebugUnitTestKotlin - Compiles the bprodDebugUnitTest kotlin.
+           compileBprodDynamicProfileAidl
+           compileBprodDynamicProfileJavaWithJavac
+           compileBprodDynamicProfileKotlin - Compiles the bprodDynamicProfile kotlin.
+           compileBprodDynamicProfileRenderscript
+           compileBprodDynamicProfileShaders
+           compileBprodDynamicProfileUnitTestJavaWithJavac
+           compileBprodDynamicProfileUnitTestKotlin - Compiles the bprodDynamicProfileUnitTest kotlin.
+           compileBprodDynamicReleaseAidl
+           compileBprodDynamicReleaseJavaWithJavac
+           compileBprodDynamicReleaseKotlin - Compiles the bprodDynamicRelease kotlin.
+           compileBprodDynamicReleaseRenderscript
+           compileBprodDynamicReleaseShaders
+           compileBprodDynamicReleaseUnitTestJavaWithJavac
+           compileBprodDynamicReleaseUnitTestKotlin - Compiles the bprodDynamicReleaseUnitTest kotlin.
+           compileBprodProfileAidl
+           compileBprodProfileJavaWithJavac
+           compileBprodProfileKotlin - Compiles the bprodProfile kotlin.
+           compileBprodProfileRenderscript
+           compileBprodProfileShaders
+           compileBprodProfileUnitTestJavaWithJavac
+           compileBprodProfileUnitTestKotlin - Compiles the bprodProfileUnitTest kotlin.
+           compileBprodReleaseAidl
+           compileBprodReleaseJavaWithJavac
+           compileBprodReleaseKotlin - Compiles the bprodRelease kotlin.
+           compileBprodReleaseRenderscript
+           compileBprodReleaseShaders
+           compileBprodReleaseUnitTestJavaWithJavac
+           compileBprodReleaseUnitTestKotlin - Compiles the bprodReleaseUnitTest kotlin.
+           compileBstagDebugAidl
+           compileBstagDebugAndroidTestAidl
+           compileBstagDebugAndroidTestJavaWithJavac
+           compileBstagDebugAndroidTestKotlin - Compiles the bstagDebugAndroidTest kotlin.
+           compileBstagDebugAndroidTestRenderscript
+           compileBstagDebugAndroidTestShaders
+           compileBstagDebugJavaWithJavac
+           compileBstagDebugKotlin - Compiles the bstagDebug kotlin.
+           compileBstagDebugRenderscript
+           compileBstagDebugShaders
+           compileBstagDebugUnitTestJavaWithJavac
+           compileBstagDebugUnitTestKotlin - Compiles the bstagDebugUnitTest kotlin.
+           compileBstagDynamicProfileAidl
+           compileBstagDynamicProfileJavaWithJavac
+           compileBstagDynamicProfileKotlin - Compiles the bstagDynamicProfile kotlin.
+           compileBstagDynamicProfileRenderscript
+           compileBstagDynamicProfileShaders
+           compileBstagDynamicProfileUnitTestJavaWithJavac
+           compileBstagDynamicProfileUnitTestKotlin - Compiles the bstagDynamicProfileUnitTest kotlin.
+           compileBstagDynamicReleaseAidl
+           compileBstagDynamicReleaseJavaWithJavac
+           compileBstagDynamicReleaseKotlin - Compiles the bstagDynamicRelease kotlin.
+           compileBstagDynamicReleaseRenderscript
+           compileBstagDynamicReleaseShaders
+           compileBstagDynamicReleaseUnitTestJavaWithJavac
+           compileBstagDynamicReleaseUnitTestKotlin - Compiles the bstagDynamicReleaseUnitTest kotlin.
+           compileBstagProfileAidl
+           compileBstagProfileJavaWithJavac
+           compileBstagProfileKotlin - Compiles the bstagProfile kotlin.
+           compileBstagProfileRenderscript
+           compileBstagProfileShaders
+           compileBstagProfileUnitTestJavaWithJavac
+           compileBstagProfileUnitTestKotlin - Compiles the bstagProfileUnitTest kotlin.
+           compileBstagReleaseAidl
+           compileBstagReleaseJavaWithJavac
+           compileBstagReleaseKotlin - Compiles the bstagRelease kotlin.
+           compileBstagReleaseRenderscript
+           compileBstagReleaseShaders
+           compileBstagReleaseUnitTestJavaWithJavac
+           compileBstagReleaseUnitTestKotlin - Compiles the bstagReleaseUnitTest kotlin.
+           compileflutterBuildAprodDebugandroid-arm
+           compileflutterBuildAprodDynamicProfileandroid-arm
+           compileflutterBuildAprodDynamicReleaseandroid-arm
+           compileflutterBuildAprodProfileandroid-arm
+           compileflutterBuildAprodReleaseandroid-arm
+           compileflutterBuildAprodReleaseandroid-arm64
+           compileflutterBuildAstagDebugandroid-arm
+           compileflutterBuildAstagDynamicProfileandroid-arm
+           compileflutterBuildAstagDynamicReleaseandroid-arm
+           compileflutterBuildAstagProfileandroid-arm
+           compileflutterBuildAstagReleaseandroid-arm
+           compileflutterBuildAstagReleaseandroid-arm64
+           compileflutterBuildBprodDebugandroid-arm
+           compileflutterBuildBprodDynamicProfileandroid-arm
+           compileflutterBuildBprodDynamicReleaseandroid-arm
+           compileflutterBuildBprodProfileandroid-arm
+           compileflutterBuildBprodReleaseandroid-arm
+           compileflutterBuildBprodReleaseandroid-arm64
+           compileflutterBuildBstagDebugandroid-arm
+           compileflutterBuildBstagDynamicProfileandroid-arm
+           compileflutterBuildBstagDynamicReleaseandroid-arm
+           compileflutterBuildBstagProfileandroid-arm
+           compileflutterBuildBstagReleaseandroid-arm
+           compileflutterBuildBstagReleaseandroid-arm64
+           compileLint
+           configureAprodDebugDependencies
+           configureAprodDynamicProfileDependencies
+           configureAprodDynamicReleaseDependencies
+           configureAprodProfileDependencies
+           configureAprodReleaseDependencies
+           configureAstagDebugDependencies
+           configureAstagDynamicProfileDependencies
+           configureAstagDynamicReleaseDependencies
+           configureAstagProfileDependencies
+           configureAstagReleaseDependencies
+           configureBprodDebugDependencies
+           configureBprodDynamicProfileDependencies
+           configureBprodDynamicReleaseDependencies
+           configureBprodProfileDependencies
+           configureBprodReleaseDependencies
+           configureBstagDebugDependencies
+           configureBstagDynamicProfileDependencies
+           configureBstagDynamicReleaseDependencies
+           configureBstagProfileDependencies
+           configureBstagReleaseDependencies
+           consumeConfigAttr
+           copyFlutterAssetsAprodDebug
+           copyFlutterAssetsAprodDynamicProfile
+           copyFlutterAssetsAprodDynamicRelease
+           copyFlutterAssetsAprodProfile
+           copyFlutterAssetsAprodRelease
+           copyFlutterAssetsAstagDebug
+           copyFlutterAssetsAstagDynamicProfile
+           copyFlutterAssetsAstagDynamicRelease
+           copyFlutterAssetsAstagProfile
+           copyFlutterAssetsAstagRelease
+           copyFlutterAssetsBprodDebug
+           copyFlutterAssetsBprodDynamicProfile
+           copyFlutterAssetsBprodDynamicRelease
+           copyFlutterAssetsBprodProfile
+           copyFlutterAssetsBprodRelease
+           copyFlutterAssetsBstagDebug
+           copyFlutterAssetsBstagDynamicProfile
+           copyFlutterAssetsBstagDynamicRelease
+           copyFlutterAssetsBstagProfile
+           copyFlutterAssetsBstagRelease
+           crashlyticsUploadDistributionAprodDebug - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAprodDynamicProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAprodDynamicRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAprodProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAprodRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAstagDebug - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAstagDynamicProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAstagDynamicRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAstagProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionAstagRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBprodDebug - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBprodDynamicProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBprodDynamicRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBprodProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBprodRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBstagDebug - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBstagDynamicProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBstagDynamicRelease - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBstagProfile - Uploads an APK to Crashlytics for distribution.
+           crashlyticsUploadDistributionBstagRelease - Uploads an APK to Crashlytics for distribution.
+           createAprodDebugCompatibleScreenManifests
+           createAprodDynamicProfileCompatibleScreenManifests
+           createAprodDynamicReleaseCompatibleScreenManifests
+           createAprodProfileCompatibleScreenManifests
+           createAprodReleaseCompatibleScreenManifests
+           createAstagDebugCompatibleScreenManifests
+           createAstagDynamicProfileCompatibleScreenManifests
+           createAstagDynamicReleaseCompatibleScreenManifests
+           createAstagProfileCompatibleScreenManifests
+           createAstagReleaseCompatibleScreenManifests
+           createBprodDebugCompatibleScreenManifests
+           createBprodDynamicProfileCompatibleScreenManifests
+           createBprodDynamicReleaseCompatibleScreenManifests
+           createBprodProfileCompatibleScreenManifests
+           createBprodReleaseCompatibleScreenManifests
+           createBstagDebugCompatibleScreenManifests
+           createBstagDynamicProfileCompatibleScreenManifests
+           createBstagDynamicReleaseCompatibleScreenManifests
+           createBstagProfileCompatibleScreenManifests
+           createBstagReleaseCompatibleScreenManifests
+           createMockableJar
+           extractApksForAprodDebug
+           extractApksForAprodDynamicProfile
+           extractApksForAprodDynamicRelease
+           extractApksForAprodProfile
+           extractApksForAprodRelease
+           extractApksForAstagDebug
+           extractApksForAstagDynamicProfile
+           extractApksForAstagDynamicRelease
+           extractApksForAstagProfile
+           extractApksForAstagRelease
+           extractApksForBprodDebug
+           extractApksForBprodDynamicProfile
+           extractApksForBprodDynamicRelease
+           extractApksForBprodProfile
+           extractApksForBprodRelease
+           extractApksForBstagDebug
+           extractApksForBstagDynamicProfile
+           extractApksForBstagDynamicRelease
+           extractApksForBstagProfile
+           extractApksForBstagRelease
+           extractProguardFiles
+           fabricGenerateResourcesAprodDebug - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAprodDynamicProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAprodDynamicRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAprodProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAprodRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAstagDebug - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAstagDynamicProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAstagDynamicRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAstagProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesAstagRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBprodDebug - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBprodDynamicProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBprodDynamicRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBprodProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBprodRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBstagDebug - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBstagDynamicProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBstagDynamicRelease - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBstagProfile - Injects the build id used by the Fabric SDK.
+           fabricGenerateResourcesBstagRelease - Injects the build id used by the Fabric SDK.
+           flutterBuildX86Jar
+           generateAprodDebugAndroidTestAssets
+           generateAprodDebugAndroidTestBuildConfig
+           generateAprodDebugAndroidTestResources
+           generateAprodDebugAndroidTestResValues
+           generateAprodDebugAndroidTestSources
+           generateAprodDebugAssets
+           generateAprodDebugBuildConfig
+           generateAprodDebugFeatureMetadata
+           generateAprodDebugFeatureTransitiveDeps
+           generateAprodDebugResources
+           generateAprodDebugResValues
+           generateAprodDebugSources
+           generateAprodDebugUnitTestAssets
+           generateAprodDebugUnitTestResources
+           generateAprodDebugUnitTestSources
+           generateAprodDynamicProfileAssets
+           generateAprodDynamicProfileBuildConfig
+           generateAprodDynamicProfileFeatureMetadata
+           generateAprodDynamicProfileFeatureTransitiveDeps
+           generateAprodDynamicProfileResources
+           generateAprodDynamicProfileResValues
+           generateAprodDynamicProfileSources
+           generateAprodDynamicProfileUnitTestAssets
+           generateAprodDynamicProfileUnitTestResources
+           generateAprodDynamicProfileUnitTestSources
+           generateAprodDynamicReleaseAssets
+           generateAprodDynamicReleaseBuildConfig
+           generateAprodDynamicReleaseFeatureMetadata
+           generateAprodDynamicReleaseFeatureTransitiveDeps
+           generateAprodDynamicReleaseResources
+           generateAprodDynamicReleaseResValues
+           generateAprodDynamicReleaseSources
+           generateAprodDynamicReleaseUnitTestAssets
+           generateAprodDynamicReleaseUnitTestResources
+           generateAprodDynamicReleaseUnitTestSources
+           generateAprodProfileAssets
+           generateAprodProfileBuildConfig
+           generateAprodProfileFeatureMetadata
+           generateAprodProfileFeatureTransitiveDeps
+           generateAprodProfileResources
+           generateAprodProfileResValues
+           generateAprodProfileSources
+           generateAprodProfileUnitTestAssets
+           generateAprodProfileUnitTestResources
+           generateAprodProfileUnitTestSources
+           generateAprodReleaseAssets
+           generateAprodReleaseBuildConfig
+           generateAprodReleaseFeatureMetadata
+           generateAprodReleaseFeatureTransitiveDeps
+           generateAprodReleaseResources
+           generateAprodReleaseResValues
+           generateAprodReleaseSources
+           generateAprodReleaseUnitTestAssets
+           generateAprodReleaseUnitTestResources
+           generateAprodReleaseUnitTestSources
+           generateAstagDebugAndroidTestAssets
+           generateAstagDebugAndroidTestBuildConfig
+           generateAstagDebugAndroidTestResources
+           generateAstagDebugAndroidTestResValues
+           generateAstagDebugAndroidTestSources
+           generateAstagDebugAssets
+           generateAstagDebugBuildConfig
+           generateAstagDebugFeatureMetadata
+           generateAstagDebugFeatureTransitiveDeps
+           generateAstagDebugResources
+           generateAstagDebugResValues
+           generateAstagDebugSources
+           generateAstagDebugUnitTestAssets
+           generateAstagDebugUnitTestResources
+           generateAstagDebugUnitTestSources
+           generateAstagDynamicProfileAssets
+           generateAstagDynamicProfileBuildConfig
+           generateAstagDynamicProfileFeatureMetadata
+           generateAstagDynamicProfileFeatureTransitiveDeps
+           generateAstagDynamicProfileResources
+           generateAstagDynamicProfileResValues
+           generateAstagDynamicProfileSources
+           generateAstagDynamicProfileUnitTestAssets
+           generateAstagDynamicProfileUnitTestResources
+           generateAstagDynamicProfileUnitTestSources
+           generateAstagDynamicReleaseAssets
+           generateAstagDynamicReleaseBuildConfig
+           generateAstagDynamicReleaseFeatureMetadata
+           generateAstagDynamicReleaseFeatureTransitiveDeps
+           generateAstagDynamicReleaseResources
+           generateAstagDynamicReleaseResValues
+           generateAstagDynamicReleaseSources
+           generateAstagDynamicReleaseUnitTestAssets
+           generateAstagDynamicReleaseUnitTestResources
+           generateAstagDynamicReleaseUnitTestSources
+           generateAstagProfileAssets
+           generateAstagProfileBuildConfig
+           generateAstagProfileFeatureMetadata
+           generateAstagProfileFeatureTransitiveDeps
+           generateAstagProfileResources
+           generateAstagProfileResValues
+           generateAstagProfileSources
+           generateAstagProfileUnitTestAssets
+           generateAstagProfileUnitTestResources
+           generateAstagProfileUnitTestSources
+           generateAstagReleaseAssets
+           generateAstagReleaseBuildConfig
+           generateAstagReleaseFeatureMetadata
+           generateAstagReleaseFeatureTransitiveDeps
+           generateAstagReleaseResources
+           generateAstagReleaseResValues
+           generateAstagReleaseSources
+           generateAstagReleaseUnitTestAssets
+           generateAstagReleaseUnitTestResources
+           generateAstagReleaseUnitTestSources
+           generateBprodDebugAndroidTestAssets
+           generateBprodDebugAndroidTestBuildConfig
+           generateBprodDebugAndroidTestResources
+           generateBprodDebugAndroidTestResValues
+           generateBprodDebugAndroidTestSources
+           generateBprodDebugAssets
+           generateBprodDebugBuildConfig
+           generateBprodDebugFeatureMetadata
+           generateBprodDebugFeatureTransitiveDeps
+           generateBprodDebugResources
+           generateBprodDebugResValues
+           generateBprodDebugSources
+           generateBprodDebugUnitTestAssets
+           generateBprodDebugUnitTestResources
+           generateBprodDebugUnitTestSources
+           generateBprodDynamicProfileAssets
+           generateBprodDynamicProfileBuildConfig
+           generateBprodDynamicProfileFeatureMetadata
+           generateBprodDynamicProfileFeatureTransitiveDeps
+           generateBprodDynamicProfileResources
+           generateBprodDynamicProfileResValues
+           generateBprodDynamicProfileSources
+           generateBprodDynamicProfileUnitTestAssets
+           generateBprodDynamicProfileUnitTestResources
+           generateBprodDynamicProfileUnitTestSources
+           generateBprodDynamicReleaseAssets
+           generateBprodDynamicReleaseBuildConfig
+           generateBprodDynamicReleaseFeatureMetadata
+           generateBprodDynamicReleaseFeatureTransitiveDeps
+           generateBprodDynamicReleaseResources
+           generateBprodDynamicReleaseResValues
+           generateBprodDynamicReleaseSources
+           generateBprodDynamicReleaseUnitTestAssets
+           generateBprodDynamicReleaseUnitTestResources
+           generateBprodDynamicReleaseUnitTestSources
+           generateBprodProfileAssets
+           generateBprodProfileBuildConfig
+           generateBprodProfileFeatureMetadata
+           generateBprodProfileFeatureTransitiveDeps
+           generateBprodProfileResources
+           generateBprodProfileResValues
+           generateBprodProfileSources
+           generateBprodProfileUnitTestAssets
+           generateBprodProfileUnitTestResources
+           generateBprodProfileUnitTestSources
+           generateBprodReleaseAssets
+           generateBprodReleaseBuildConfig
+           generateBprodReleaseFeatureMetadata
+           generateBprodReleaseFeatureTransitiveDeps
+           generateBprodReleaseResources
+           generateBprodReleaseResValues
+           generateBprodReleaseSources
+           generateBprodReleaseUnitTestAssets
+           generateBprodReleaseUnitTestResources
+           generateBprodReleaseUnitTestSources
+           generateBstagDebugAndroidTestAssets
+           generateBstagDebugAndroidTestBuildConfig
+           generateBstagDebugAndroidTestResources
+           generateBstagDebugAndroidTestResValues
+           generateBstagDebugAndroidTestSources
+           generateBstagDebugAssets
+           generateBstagDebugBuildConfig
+           generateBstagDebugFeatureMetadata
+           generateBstagDebugFeatureTransitiveDeps
+           generateBstagDebugResources
+           generateBstagDebugResValues
+           generateBstagDebugSources
+           generateBstagDebugUnitTestAssets
+           generateBstagDebugUnitTestResources
+           generateBstagDebugUnitTestSources
+           generateBstagDynamicProfileAssets
+           generateBstagDynamicProfileBuildConfig
+           generateBstagDynamicProfileFeatureMetadata
+           generateBstagDynamicProfileFeatureTransitiveDeps
+           generateBstagDynamicProfileResources
+           generateBstagDynamicProfileResValues
+           generateBstagDynamicProfileSources
+           generateBstagDynamicProfileUnitTestAssets
+           generateBstagDynamicProfileUnitTestResources
+           generateBstagDynamicProfileUnitTestSources
+           generateBstagDynamicReleaseAssets
+           generateBstagDynamicReleaseBuildConfig
+           generateBstagDynamicReleaseFeatureMetadata
+           generateBstagDynamicReleaseFeatureTransitiveDeps
+           generateBstagDynamicReleaseResources
+           generateBstagDynamicReleaseResValues
+           generateBstagDynamicReleaseSources
+           generateBstagDynamicReleaseUnitTestAssets
+           generateBstagDynamicReleaseUnitTestResources
+           generateBstagDynamicReleaseUnitTestSources
+           generateBstagProfileAssets
+           generateBstagProfileBuildConfig
+           generateBstagProfileFeatureMetadata
+           generateBstagProfileFeatureTransitiveDeps
+           generateBstagProfileResources
+           generateBstagProfileResValues
+           generateBstagProfileSources
+           generateBstagProfileUnitTestAssets
+           generateBstagProfileUnitTestResources
+           generateBstagProfileUnitTestSources
+           generateBstagReleaseAssets
+           generateBstagReleaseBuildConfig
+           generateBstagReleaseFeatureMetadata
+           generateBstagReleaseFeatureTransitiveDeps
+           generateBstagReleaseResources
+           generateBstagReleaseResValues
+           generateBstagReleaseSources
+           generateBstagReleaseUnitTestAssets
+           generateBstagReleaseUnitTestResources
+           generateBstagReleaseUnitTestSources
+           javaPreCompileAprodDebug
+           javaPreCompileAprodDebugAndroidTest
+           javaPreCompileAprodDebugUnitTest
+           javaPreCompileAprodDynamicProfile
+           javaPreCompileAprodDynamicProfileUnitTest
+           javaPreCompileAprodDynamicRelease
+           javaPreCompileAprodDynamicReleaseUnitTest
+           javaPreCompileAprodProfile
+           javaPreCompileAprodProfileUnitTest
+           javaPreCompileAprodRelease
+           javaPreCompileAprodReleaseUnitTest
+           javaPreCompileAstagDebug
+           javaPreCompileAstagDebugAndroidTest
+           javaPreCompileAstagDebugUnitTest
+           javaPreCompileAstagDynamicProfile
+           javaPreCompileAstagDynamicProfileUnitTest
+           javaPreCompileAstagDynamicRelease
+           javaPreCompileAstagDynamicReleaseUnitTest
+           javaPreCompileAstagProfile
+           javaPreCompileAstagProfileUnitTest
+           javaPreCompileAstagRelease
+           javaPreCompileAstagReleaseUnitTest
+           javaPreCompileBprodDebug
+           javaPreCompileBprodDebugAndroidTest
+           javaPreCompileBprodDebugUnitTest
+           javaPreCompileBprodDynamicProfile
+           javaPreCompileBprodDynamicProfileUnitTest
+           javaPreCompileBprodDynamicRelease
+           javaPreCompileBprodDynamicReleaseUnitTest
+           javaPreCompileBprodProfile
+           javaPreCompileBprodProfileUnitTest
+           javaPreCompileBprodRelease
+           javaPreCompileBprodReleaseUnitTest
+           javaPreCompileBstagDebug
+           javaPreCompileBstagDebugAndroidTest
+           javaPreCompileBstagDebugUnitTest
+           javaPreCompileBstagDynamicProfile
+           javaPreCompileBstagDynamicProfileUnitTest
+           javaPreCompileBstagDynamicRelease
+           javaPreCompileBstagDynamicReleaseUnitTest
+           javaPreCompileBstagProfile
+           javaPreCompileBstagProfileUnitTest
+           javaPreCompileBstagRelease
+           javaPreCompileBstagReleaseUnitTest
+           mainApkListPersistenceAprodDebug
+           mainApkListPersistenceAprodDebugAndroidTest
+           mainApkListPersistenceAprodDynamicProfile
+           mainApkListPersistenceAprodDynamicRelease
+           mainApkListPersistenceAprodProfile
+           mainApkListPersistenceAprodRelease
+           mainApkListPersistenceAstagDebug
+           mainApkListPersistenceAstagDebugAndroidTest
+           mainApkListPersistenceAstagDynamicProfile
+           mainApkListPersistenceAstagDynamicRelease
+           mainApkListPersistenceAstagProfile
+           mainApkListPersistenceAstagRelease
+           mainApkListPersistenceBprodDebug
+           mainApkListPersistenceBprodDebugAndroidTest
+           mainApkListPersistenceBprodDynamicProfile
+           mainApkListPersistenceBprodDynamicRelease
+           mainApkListPersistenceBprodProfile
+           mainApkListPersistenceBprodRelease
+           mainApkListPersistenceBstagDebug
+           mainApkListPersistenceBstagDebugAndroidTest
+           mainApkListPersistenceBstagDynamicProfile
+           mainApkListPersistenceBstagDynamicRelease
+           mainApkListPersistenceBstagProfile
+           mainApkListPersistenceBstagRelease
+           makeApkFromBundleForAprodDebug
+           makeApkFromBundleForAprodDynamicProfile
+           makeApkFromBundleForAprodDynamicRelease
+           makeApkFromBundleForAprodProfile
+           makeApkFromBundleForAprodRelease
+           makeApkFromBundleForAstagDebug
+           makeApkFromBundleForAstagDynamicProfile
+           makeApkFromBundleForAstagDynamicRelease
+           makeApkFromBundleForAstagProfile
+           makeApkFromBundleForAstagRelease
+           makeApkFromBundleForBprodDebug
+           makeApkFromBundleForBprodDynamicProfile
+           makeApkFromBundleForBprodDynamicRelease
+           makeApkFromBundleForBprodProfile
+           makeApkFromBundleForBprodRelease
+           makeApkFromBundleForBstagDebug
+           makeApkFromBundleForBstagDynamicProfile
+           makeApkFromBundleForBstagDynamicRelease
+           makeApkFromBundleForBstagProfile
+           makeApkFromBundleForBstagRelease
+           mergeAprodDebugAndroidTestAssets
+           mergeAprodDebugAndroidTestJniLibFolders
+           mergeAprodDebugAndroidTestResources
+           mergeAprodDebugAndroidTestShaders
+           mergeAprodDebugAssets
+           mergeAprodDebugJniLibFolders
+           mergeAprodDebugResources
+           mergeAprodDebugShaders
+           mergeAprodDynamicProfileAssets
+           mergeAprodDynamicProfileJniLibFolders
+           mergeAprodDynamicProfileResources
+           mergeAprodDynamicProfileShaders
+           mergeAprodDynamicReleaseAssets
+           mergeAprodDynamicReleaseJniLibFolders
+           mergeAprodDynamicReleaseResources
+           mergeAprodDynamicReleaseShaders
+           mergeAprodProfileAssets
+           mergeAprodProfileJniLibFolders
+           mergeAprodProfileResources
+           mergeAprodProfileShaders
+           mergeAprodReleaseAssets
+           mergeAprodReleaseJniLibFolders
+           mergeAprodReleaseResources
+           mergeAprodReleaseShaders
+           mergeAstagDebugAndroidTestAssets
+           mergeAstagDebugAndroidTestJniLibFolders
+           mergeAstagDebugAndroidTestResources
+           mergeAstagDebugAndroidTestShaders
+           mergeAstagDebugAssets
+           mergeAstagDebugJniLibFolders
+           mergeAstagDebugResources
+           mergeAstagDebugShaders
+           mergeAstagDynamicProfileAssets
+           mergeAstagDynamicProfileJniLibFolders
+           mergeAstagDynamicProfileResources
+           mergeAstagDynamicProfileShaders
+           mergeAstagDynamicReleaseAssets
+           mergeAstagDynamicReleaseJniLibFolders
+           mergeAstagDynamicReleaseResources
+           mergeAstagDynamicReleaseShaders
+           mergeAstagProfileAssets
+           mergeAstagProfileJniLibFolders
+           mergeAstagProfileResources
+           mergeAstagProfileShaders
+           mergeAstagReleaseAssets
+           mergeAstagReleaseJniLibFolders
+           mergeAstagReleaseResources
+           mergeAstagReleaseShaders
+           mergeBprodDebugAndroidTestAssets
+           mergeBprodDebugAndroidTestJniLibFolders
+           mergeBprodDebugAndroidTestResources
+           mergeBprodDebugAndroidTestShaders
+           mergeBprodDebugAssets
+           mergeBprodDebugJniLibFolders
+           mergeBprodDebugResources
+           mergeBprodDebugShaders
+           mergeBprodDynamicProfileAssets
+           mergeBprodDynamicProfileJniLibFolders
+           mergeBprodDynamicProfileResources
+           mergeBprodDynamicProfileShaders
+           mergeBprodDynamicReleaseAssets
+           mergeBprodDynamicReleaseJniLibFolders
+           mergeBprodDynamicReleaseResources
+           mergeBprodDynamicReleaseShaders
+           mergeBprodProfileAssets
+           mergeBprodProfileJniLibFolders
+           mergeBprodProfileResources
+           mergeBprodProfileShaders
+           mergeBprodReleaseAssets
+           mergeBprodReleaseJniLibFolders
+           mergeBprodReleaseResources
+           mergeBprodReleaseShaders
+           mergeBstagDebugAndroidTestAssets
+           mergeBstagDebugAndroidTestJniLibFolders
+           mergeBstagDebugAndroidTestResources
+           mergeBstagDebugAndroidTestShaders
+           mergeBstagDebugAssets
+           mergeBstagDebugJniLibFolders
+           mergeBstagDebugResources
+           mergeBstagDebugShaders
+           mergeBstagDynamicProfileAssets
+           mergeBstagDynamicProfileJniLibFolders
+           mergeBstagDynamicProfileResources
+           mergeBstagDynamicProfileShaders
+           mergeBstagDynamicReleaseAssets
+           mergeBstagDynamicReleaseJniLibFolders
+           mergeBstagDynamicReleaseResources
+           mergeBstagDynamicReleaseShaders
+           mergeBstagProfileAssets
+           mergeBstagProfileJniLibFolders
+           mergeBstagProfileResources
+           mergeBstagProfileShaders
+           mergeBstagReleaseAssets
+           mergeBstagReleaseJniLibFolders
+           mergeBstagReleaseResources
+           mergeBstagReleaseShaders
+           packageAprodDebug
+           packageAprodDebugAndroidTest
+           packageAprodDebugBundle
+           packageAprodDebugUniversalApk
+           packageAprodDynamicProfile
+           packageAprodDynamicProfileBundle
+           packageAprodDynamicProfileUniversalApk
+           packageAprodDynamicRelease
+           packageAprodDynamicReleaseBundle
+           packageAprodDynamicReleaseUniversalApk
+           packageAprodProfile
+           packageAprodProfileBundle
+           packageAprodProfileUniversalApk
+           packageAprodRelease
+           packageAprodReleaseBundle
+           packageAprodReleaseUniversalApk
+           packageAstagDebug
+           packageAstagDebugAndroidTest
+           packageAstagDebugBundle
+           packageAstagDebugUniversalApk
+           packageAstagDynamicProfile
+           packageAstagDynamicProfileBundle
+           packageAstagDynamicProfileUniversalApk
+           packageAstagDynamicRelease
+           packageAstagDynamicReleaseBundle
+           packageAstagDynamicReleaseUniversalApk
+           packageAstagProfile
+           packageAstagProfileBundle
+           packageAstagProfileUniversalApk
+           packageAstagRelease
+           packageAstagReleaseBundle
+           packageAstagReleaseUniversalApk
+           packageBprodDebug
+           packageBprodDebugAndroidTest
+           packageBprodDebugBundle
+           packageBprodDebugUniversalApk
+           packageBprodDynamicProfile
+           packageBprodDynamicProfileBundle
+           packageBprodDynamicProfileUniversalApk
+           packageBprodDynamicRelease
+           packageBprodDynamicReleaseBundle
+           packageBprodDynamicReleaseUniversalApk
+           packageBprodProfile
+           packageBprodProfileBundle
+           packageBprodProfileUniversalApk
+           packageBprodRelease
+           packageBprodReleaseBundle
+           packageBprodReleaseUniversalApk
+           packageBstagDebug
+           packageBstagDebugAndroidTest
+           packageBstagDebugBundle
+           packageBstagDebugUniversalApk
+           packageBstagDynamicProfile
+           packageBstagDynamicProfileBundle
+           packageBstagDynamicProfileUniversalApk
+           packageBstagDynamicRelease
+           packageBstagDynamicReleaseBundle
+           packageBstagDynamicReleaseUniversalApk
+           packageBstagProfile
+           packageBstagProfileBundle
+           packageBstagProfileUniversalApk
+           packageBstagRelease
+           packageBstagReleaseBundle
+           packageBstagReleaseUniversalApk
+           packFlutterSnapshotsAndLibsflutterBuildAprodDebug
+           packFlutterSnapshotsAndLibsflutterBuildAprodDynamicProfile
+           packFlutterSnapshotsAndLibsflutterBuildAprodDynamicRelease
+           packFlutterSnapshotsAndLibsflutterBuildAprodProfile
+           packFlutterSnapshotsAndLibsflutterBuildAprodRelease
+           packFlutterSnapshotsAndLibsflutterBuildAstagDebug
+           packFlutterSnapshotsAndLibsflutterBuildAstagDynamicProfile
+           packFlutterSnapshotsAndLibsflutterBuildAstagDynamicRelease
+           packFlutterSnapshotsAndLibsflutterBuildAstagProfile
+           packFlutterSnapshotsAndLibsflutterBuildAstagRelease
+           packFlutterSnapshotsAndLibsflutterBuildBprodDebug
+           packFlutterSnapshotsAndLibsflutterBuildBprodDynamicProfile
+           packFlutterSnapshotsAndLibsflutterBuildBprodDynamicRelease
+           packFlutterSnapshotsAndLibsflutterBuildBprodProfile
+           packFlutterSnapshotsAndLibsflutterBuildBprodRelease
+           packFlutterSnapshotsAndLibsflutterBuildBstagDebug
+           packFlutterSnapshotsAndLibsflutterBuildBstagDynamicProfile
+           packFlutterSnapshotsAndLibsflutterBuildBstagDynamicRelease
+           packFlutterSnapshotsAndLibsflutterBuildBstagProfile
+           packFlutterSnapshotsAndLibsflutterBuildBstagRelease
+           preAprodDebugAndroidTestBuild
+           preAprodDebugBuild
+           preAprodDebugUnitTestBuild
+           preAprodDynamicProfileBuild
+           preAprodDynamicProfileUnitTestBuild
+           preAprodDynamicReleaseBuild
+           preAprodDynamicReleaseUnitTestBuild
+           preAprodProfileBuild
+           preAprodProfileUnitTestBuild
+           preAprodReleaseBuild
+           preAprodReleaseUnitTestBuild
+           preAstagDebugAndroidTestBuild
+           preAstagDebugBuild
+           preAstagDebugUnitTestBuild
+           preAstagDynamicProfileBuild
+           preAstagDynamicProfileUnitTestBuild
+           preAstagDynamicReleaseBuild
+           preAstagDynamicReleaseUnitTestBuild
+           preAstagProfileBuild
+           preAstagProfileUnitTestBuild
+           preAstagReleaseBuild
+           preAstagReleaseUnitTestBuild
+           preBprodDebugAndroidTestBuild
+           preBprodDebugBuild
+           preBprodDebugUnitTestBuild
+           preBprodDynamicProfileBuild
+           preBprodDynamicProfileUnitTestBuild
+           preBprodDynamicReleaseBuild
+           preBprodDynamicReleaseUnitTestBuild
+           preBprodProfileBuild
+           preBprodProfileUnitTestBuild
+           preBprodReleaseBuild
+           preBprodReleaseUnitTestBuild
+           preBstagDebugAndroidTestBuild
+           preBstagDebugBuild
+           preBstagDebugUnitTestBuild
+           preBstagDynamicProfileBuild
+           preBstagDynamicProfileUnitTestBuild
+           preBstagDynamicReleaseBuild
+           preBstagDynamicReleaseUnitTestBuild
+           preBstagProfileBuild
+           preBstagProfileUnitTestBuild
+           preBstagReleaseBuild
+           preBstagReleaseUnitTestBuild
+           preBuild
+           prepareLintJar
+           prepareLintJarForPublish
+           processAprodDebugAndroidTestJavaRes
+           processAprodDebugAndroidTestManifest
+           processAprodDebugAndroidTestResources
+           processAprodDebugGoogleServices
+           processAprodDebugJavaRes
+           processAprodDebugManifest
+           processAprodDebugResources
+           processAprodDebugUnitTestJavaRes
+           processAprodDynamicProfileGoogleServices
+           processAprodDynamicProfileJavaRes
+           processAprodDynamicProfileManifest
+           processAprodDynamicProfileResources
+           processAprodDynamicProfileUnitTestJavaRes
+           processAprodDynamicReleaseGoogleServices
+           processAprodDynamicReleaseJavaRes
+           processAprodDynamicReleaseManifest
+           processAprodDynamicReleaseResources
+           processAprodDynamicReleaseUnitTestJavaRes
+           processAprodProfileGoogleServices
+           processAprodProfileJavaRes
+           processAprodProfileManifest
+           processAprodProfileResources
+           processAprodProfileUnitTestJavaRes
+           processAprodReleaseGoogleServices
+           processAprodReleaseJavaRes
+           processAprodReleaseManifest
+           processAprodReleaseResources
+           processAprodReleaseUnitTestJavaRes
+           processAstagDebugAndroidTestJavaRes
+           processAstagDebugAndroidTestManifest
+           processAstagDebugAndroidTestResources
+           processAstagDebugGoogleServices
+           processAstagDebugJavaRes
+           processAstagDebugManifest
+           processAstagDebugResources
+           processAstagDebugUnitTestJavaRes
+           processAstagDynamicProfileGoogleServices
+           processAstagDynamicProfileJavaRes
+           processAstagDynamicProfileManifest
+           processAstagDynamicProfileResources
+           processAstagDynamicProfileUnitTestJavaRes
+           processAstagDynamicReleaseGoogleServices
+           processAstagDynamicReleaseJavaRes
+           processAstagDynamicReleaseManifest
+           processAstagDynamicReleaseResources
+           processAstagDynamicReleaseUnitTestJavaRes
+           processAstagProfileGoogleServices
+           processAstagProfileJavaRes
+           processAstagProfileManifest
+           processAstagProfileResources
+           processAstagProfileUnitTestJavaRes
+           processAstagReleaseGoogleServices
+           processAstagReleaseJavaRes
+           processAstagReleaseManifest
+           processAstagReleaseResources
+           processAstagReleaseUnitTestJavaRes
+           processBprodDebugAndroidTestJavaRes
+           processBprodDebugAndroidTestManifest
+           processBprodDebugAndroidTestResources
+           processBprodDebugGoogleServices
+           processBprodDebugJavaRes
+           processBprodDebugManifest
+           processBprodDebugResources
+           processBprodDebugUnitTestJavaRes
+           processBprodDynamicProfileGoogleServices
+           processBprodDynamicProfileJavaRes
+           processBprodDynamicProfileManifest
+           processBprodDynamicProfileResources
+           processBprodDynamicProfileUnitTestJavaRes
+           processBprodDynamicReleaseGoogleServices
+           processBprodDynamicReleaseJavaRes
+           processBprodDynamicReleaseManifest
+           processBprodDynamicReleaseResources
+           processBprodDynamicReleaseUnitTestJavaRes
+           processBprodProfileGoogleServices
+           processBprodProfileJavaRes
+           processBprodProfileManifest
+           processBprodProfileResources
+           processBprodProfileUnitTestJavaRes
+           processBprodReleaseGoogleServices
+           processBprodReleaseJavaRes
+           processBprodReleaseManifest
+           processBprodReleaseResources
+           processBprodReleaseUnitTestJavaRes
+           processBstagDebugAndroidTestJavaRes
+           processBstagDebugAndroidTestManifest
+           processBstagDebugAndroidTestResources
+           processBstagDebugGoogleServices
+           processBstagDebugJavaRes
+           processBstagDebugManifest
+           processBstagDebugResources
+           processBstagDebugUnitTestJavaRes
+           processBstagDynamicProfileGoogleServices
+           processBstagDynamicProfileJavaRes
+           processBstagDynamicProfileManifest
+           processBstagDynamicProfileResources
+           processBstagDynamicProfileUnitTestJavaRes
+           processBstagDynamicReleaseGoogleServices
+           processBstagDynamicReleaseJavaRes
+           processBstagDynamicReleaseManifest
+           processBstagDynamicReleaseResources
+           processBstagDynamicReleaseUnitTestJavaRes
+           processBstagProfileGoogleServices
+           processBstagProfileJavaRes
+           processBstagProfileManifest
+           processBstagProfileResources
+           processBstagProfileUnitTestJavaRes
+           processBstagReleaseGoogleServices
+           processBstagReleaseJavaRes
+           processBstagReleaseManifest
+           processBstagReleaseResources
+           processBstagReleaseUnitTestJavaRes
+           reportBuildArtifactsAprodDebug
+           reportBuildArtifactsAprodDynamicProfile
+           reportBuildArtifactsAprodDynamicRelease
+           reportBuildArtifactsAprodProfile
+           reportBuildArtifactsAprodRelease
+           reportBuildArtifactsAstagDebug
+           reportBuildArtifactsAstagDynamicProfile
+           reportBuildArtifactsAstagDynamicRelease
+           reportBuildArtifactsAstagProfile
+           reportBuildArtifactsAstagRelease
+           reportBuildArtifactsBprodDebug
+           reportBuildArtifactsBprodDynamicProfile
+           reportBuildArtifactsBprodDynamicRelease
+           reportBuildArtifactsBprodProfile
+           reportBuildArtifactsBprodRelease
+           reportBuildArtifactsBstagDebug
+           reportBuildArtifactsBstagDynamicProfile
+           reportBuildArtifactsBstagDynamicRelease
+           reportBuildArtifactsBstagProfile
+           reportBuildArtifactsBstagRelease
+           reportSourceSetTransformAndroidTest
+           reportSourceSetTransformAndroidTestAprod
+           reportSourceSetTransformAndroidTestAprodDebug
+           reportSourceSetTransformAndroidTestAstag
+           reportSourceSetTransformAndroidTestAstagDebug
+           reportSourceSetTransformAndroidTestBprod
+           reportSourceSetTransformAndroidTestBprodDebug
+           reportSourceSetTransformAndroidTestBstag
+           reportSourceSetTransformAndroidTestBstagDebug
+           reportSourceSetTransformAndroidTestDebug
+           reportSourceSetTransformAprod
+           reportSourceSetTransformAprodDebug
+           reportSourceSetTransformAprodDynamicProfile
+           reportSourceSetTransformAprodDynamicRelease
+           reportSourceSetTransformAprodProfile
+           reportSourceSetTransformAprodRelease
+           reportSourceSetTransformAstag
+           reportSourceSetTransformAstagDebug
+           reportSourceSetTransformAstagDynamicProfile
+           reportSourceSetTransformAstagDynamicRelease
+           reportSourceSetTransformAstagProfile
+           reportSourceSetTransformAstagRelease
+           reportSourceSetTransformBprod
+           reportSourceSetTransformBprodDebug
+           reportSourceSetTransformBprodDynamicProfile
+           reportSourceSetTransformBprodDynamicRelease
+           reportSourceSetTransformBprodProfile
+           reportSourceSetTransformBprodRelease
+           reportSourceSetTransformBstag
+           reportSourceSetTransformBstagDebug
+           reportSourceSetTransformBstagDynamicProfile
+           reportSourceSetTransformBstagDynamicRelease
+           reportSourceSetTransformBstagProfile
+           reportSourceSetTransformBstagRelease
+           reportSourceSetTransformDebug
+           reportSourceSetTransformDynamicProfile
+           reportSourceSetTransformDynamicRelease
+           reportSourceSetTransformMain
+           reportSourceSetTransformProfile
+           reportSourceSetTransformRelease
+           reportSourceSetTransformTest
+           reportSourceSetTransformTestAprod
+           reportSourceSetTransformTestAprodDebug
+           reportSourceSetTransformTestAprodDynamicProfile
+           reportSourceSetTransformTestAprodDynamicRelease
+           reportSourceSetTransformTestAprodProfile
+           reportSourceSetTransformTestAprodRelease
+           reportSourceSetTransformTestAstag
+           reportSourceSetTransformTestAstagDebug
+           reportSourceSetTransformTestAstagDynamicProfile
+           reportSourceSetTransformTestAstagDynamicRelease
+           reportSourceSetTransformTestAstagProfile
+           reportSourceSetTransformTestAstagRelease
+           reportSourceSetTransformTestBprod
+           reportSourceSetTransformTestBprodDebug
+           reportSourceSetTransformTestBprodDynamicProfile
+           reportSourceSetTransformTestBprodDynamicRelease
+           reportSourceSetTransformTestBprodProfile
+           reportSourceSetTransformTestBprodRelease
+           reportSourceSetTransformTestBstag
+           reportSourceSetTransformTestBstagDebug
+           reportSourceSetTransformTestBstagDynamicProfile
+           reportSourceSetTransformTestBstagDynamicRelease
+           reportSourceSetTransformTestBstagProfile
+           reportSourceSetTransformTestBstagRelease
+           reportSourceSetTransformTestDebug
+           reportSourceSetTransformTestDynamicProfile
+           reportSourceSetTransformTestDynamicRelease
+           reportSourceSetTransformTestProfile
+           reportSourceSetTransformTestRelease
+           resolveConfigAttr
+           signAprodDebugBundle
+           signAprodDynamicProfileBundle
+           signAprodDynamicReleaseBundle
+           signAprodProfileBundle
+           signAprodReleaseBundle
+           signAstagDebugBundle
+           signAstagDynamicProfileBundle
+           signAstagDynamicReleaseBundle
+           signAstagProfileBundle
+           signAstagReleaseBundle
+           signBprodDebugBundle
+           signBprodDynamicProfileBundle
+           signBprodDynamicReleaseBundle
+           signBprodProfileBundle
+           signBprodReleaseBundle
+           signBstagDebugBundle
+           signBstagDynamicProfileBundle
+           signBstagDynamicReleaseBundle
+           signBstagProfileBundle
+           signBstagReleaseBundle
+           signingConfigWriterAprodDebug
+           signingConfigWriterAprodDebugAndroidTest
+           signingConfigWriterAprodDynamicProfile
+           signingConfigWriterAprodDynamicRelease
+           signingConfigWriterAprodProfile
+           signingConfigWriterAprodRelease
+           signingConfigWriterAstagDebug
+           signingConfigWriterAstagDebugAndroidTest
+           signingConfigWriterAstagDynamicProfile
+           signingConfigWriterAstagDynamicRelease
+           signingConfigWriterAstagProfile
+           signingConfigWriterAstagRelease
+           signingConfigWriterBprodDebug
+           signingConfigWriterBprodDebugAndroidTest
+           signingConfigWriterBprodDynamicProfile
+           signingConfigWriterBprodDynamicRelease
+           signingConfigWriterBprodProfile
+           signingConfigWriterBprodRelease
+           signingConfigWriterBstagDebug
+           signingConfigWriterBstagDebugAndroidTest
+           signingConfigWriterBstagDynamicProfile
+           signingConfigWriterBstagDynamicRelease
+           signingConfigWriterBstagProfile
+           signingConfigWriterBstagRelease
+           transformClassesWithDexBuilderForAprodDebug
+           transformClassesWithDexBuilderForAprodDebugAndroidTest
+           transformClassesWithDexBuilderForAprodDynamicProfile
+           transformClassesWithDexBuilderForAprodDynamicRelease
+           transformClassesWithDexBuilderForAprodProfile
+           transformClassesWithDexBuilderForAprodRelease
+           transformClassesWithDexBuilderForAstagDebug
+           transformClassesWithDexBuilderForAstagDebugAndroidTest
+           transformClassesWithDexBuilderForAstagDynamicProfile
+           transformClassesWithDexBuilderForAstagDynamicRelease
+           transformClassesWithDexBuilderForAstagProfile
+           transformClassesWithDexBuilderForAstagRelease
+           transformClassesWithDexBuilderForBprodDebug
+           transformClassesWithDexBuilderForBprodDebugAndroidTest
+           transformClassesWithDexBuilderForBprodDynamicProfile
+           transformClassesWithDexBuilderForBprodDynamicRelease
+           transformClassesWithDexBuilderForBprodProfile
+           transformClassesWithDexBuilderForBprodRelease
+           transformClassesWithDexBuilderForBstagDebug
+           transformClassesWithDexBuilderForBstagDebugAndroidTest
+           transformClassesWithDexBuilderForBstagDynamicProfile
+           transformClassesWithDexBuilderForBstagDynamicRelease
+           transformClassesWithDexBuilderForBstagProfile
+           transformClassesWithDexBuilderForBstagRelease
+           transformClassesWithMultidexlistForAprodDebug
+           transformClassesWithMultidexlistForAprodDebugAndroidTest
+           transformClassesWithMultidexlistForAprodDynamicProfile
+           transformClassesWithMultidexlistForAprodDynamicRelease
+           transformClassesWithMultidexlistForAprodProfile
+           transformClassesWithMultidexlistForAprodRelease
+           transformClassesWithMultidexlistForAstagDebug
+           transformClassesWithMultidexlistForAstagDebugAndroidTest
+           transformClassesWithMultidexlistForAstagDynamicProfile
+           transformClassesWithMultidexlistForAstagDynamicRelease
+           transformClassesWithMultidexlistForAstagProfile
+           transformClassesWithMultidexlistForAstagRelease
+           transformClassesWithMultidexlistForBprodDebug
+           transformClassesWithMultidexlistForBprodDebugAndroidTest
+           transformClassesWithMultidexlistForBprodDynamicProfile
+           transformClassesWithMultidexlistForBprodDynamicRelease
+           transformClassesWithMultidexlistForBprodProfile
+           transformClassesWithMultidexlistForBprodRelease
+           transformClassesWithMultidexlistForBstagDebug
+           transformClassesWithMultidexlistForBstagDebugAndroidTest
+           transformClassesWithMultidexlistForBstagDynamicProfile
+           transformClassesWithMultidexlistForBstagDynamicRelease
+           transformClassesWithMultidexlistForBstagProfile
+           transformClassesWithMultidexlistForBstagRelease
+           transformDexArchiveWithDexMergerForAprodDebug
+           transformDexArchiveWithDexMergerForAprodDebugAndroidTest
+           transformDexArchiveWithDexMergerForAprodDynamicProfile
+           transformDexArchiveWithDexMergerForAprodDynamicRelease
+           transformDexArchiveWithDexMergerForAprodProfile
+           transformDexArchiveWithDexMergerForAprodRelease
+           transformDexArchiveWithDexMergerForAstagDebug
+           transformDexArchiveWithDexMergerForAstagDebugAndroidTest
+           transformDexArchiveWithDexMergerForAstagDynamicProfile
+           transformDexArchiveWithDexMergerForAstagDynamicRelease
+           transformDexArchiveWithDexMergerForAstagProfile
+           transformDexArchiveWithDexMergerForAstagRelease
+           transformDexArchiveWithDexMergerForBprodDebug
+           transformDexArchiveWithDexMergerForBprodDebugAndroidTest
+           transformDexArchiveWithDexMergerForBprodDynamicProfile
+           transformDexArchiveWithDexMergerForBprodDynamicRelease
+           transformDexArchiveWithDexMergerForBprodProfile
+           transformDexArchiveWithDexMergerForBprodRelease
+           transformDexArchiveWithDexMergerForBstagDebug
+           transformDexArchiveWithDexMergerForBstagDebugAndroidTest
+           transformDexArchiveWithDexMergerForBstagDynamicProfile
+           transformDexArchiveWithDexMergerForBstagDynamicRelease
+           transformDexArchiveWithDexMergerForBstagProfile
+           transformDexArchiveWithDexMergerForBstagRelease
+           transformNativeLibsWithMergeJniLibsForAprodDebug
+           transformNativeLibsWithMergeJniLibsForAprodDebugAndroidTest
+           transformNativeLibsWithMergeJniLibsForAprodDynamicProfile
+           transformNativeLibsWithMergeJniLibsForAprodDynamicRelease
+           transformNativeLibsWithMergeJniLibsForAprodProfile
+           transformNativeLibsWithMergeJniLibsForAprodRelease
+           transformNativeLibsWithMergeJniLibsForAstagDebug
+           transformNativeLibsWithMergeJniLibsForAstagDebugAndroidTest
+           transformNativeLibsWithMergeJniLibsForAstagDynamicProfile
+           transformNativeLibsWithMergeJniLibsForAstagDynamicRelease
+           transformNativeLibsWithMergeJniLibsForAstagProfile
+           transformNativeLibsWithMergeJniLibsForAstagRelease
+           transformNativeLibsWithMergeJniLibsForBprodDebug
+           transformNativeLibsWithMergeJniLibsForBprodDebugAndroidTest
+           transformNativeLibsWithMergeJniLibsForBprodDynamicProfile
+           transformNativeLibsWithMergeJniLibsForBprodDynamicRelease
+           transformNativeLibsWithMergeJniLibsForBprodProfile
+           transformNativeLibsWithMergeJniLibsForBprodRelease
+           transformNativeLibsWithMergeJniLibsForBstagDebug
+           transformNativeLibsWithMergeJniLibsForBstagDebugAndroidTest
+           transformNativeLibsWithMergeJniLibsForBstagDynamicProfile
+           transformNativeLibsWithMergeJniLibsForBstagDynamicRelease
+           transformNativeLibsWithMergeJniLibsForBstagProfile
+           transformNativeLibsWithMergeJniLibsForBstagRelease
+           transformResourcesWithMergeJavaResForAprodDebug
+           transformResourcesWithMergeJavaResForAprodDebugAndroidTest
+           transformResourcesWithMergeJavaResForAprodDebugUnitTest
+           transformResourcesWithMergeJavaResForAprodDynamicProfile
+           transformResourcesWithMergeJavaResForAprodDynamicProfileUnitTest
+           transformResourcesWithMergeJavaResForAprodDynamicRelease
+           transformResourcesWithMergeJavaResForAprodDynamicReleaseUnitTest
+           transformResourcesWithMergeJavaResForAprodProfile
+           transformResourcesWithMergeJavaResForAprodProfileUnitTest
+           transformResourcesWithMergeJavaResForAprodRelease
+           transformResourcesWithMergeJavaResForAprodReleaseUnitTest
+           transformResourcesWithMergeJavaResForAstagDebug
+           transformResourcesWithMergeJavaResForAstagDebugAndroidTest
+           transformResourcesWithMergeJavaResForAstagDebugUnitTest
+           transformResourcesWithMergeJavaResForAstagDynamicProfile
+           transformResourcesWithMergeJavaResForAstagDynamicProfileUnitTest
+           transformResourcesWithMergeJavaResForAstagDynamicRelease
+           transformResourcesWithMergeJavaResForAstagDynamicReleaseUnitTest
+           transformResourcesWithMergeJavaResForAstagProfile
+           transformResourcesWithMergeJavaResForAstagProfileUnitTest
+           transformResourcesWithMergeJavaResForAstagRelease
+           transformResourcesWithMergeJavaResForAstagReleaseUnitTest
+           transformResourcesWithMergeJavaResForBprodDebug
+           transformResourcesWithMergeJavaResForBprodDebugAndroidTest
+           transformResourcesWithMergeJavaResForBprodDebugUnitTest
+           transformResourcesWithMergeJavaResForBprodDynamicProfile
+           transformResourcesWithMergeJavaResForBprodDynamicProfileUnitTest
+           transformResourcesWithMergeJavaResForBprodDynamicRelease
+           transformResourcesWithMergeJavaResForBprodDynamicReleaseUnitTest
+           transformResourcesWithMergeJavaResForBprodProfile
+           transformResourcesWithMergeJavaResForBprodProfileUnitTest
+           transformResourcesWithMergeJavaResForBprodRelease
+           transformResourcesWithMergeJavaResForBprodReleaseUnitTest
+           transformResourcesWithMergeJavaResForBstagDebug
+           transformResourcesWithMergeJavaResForBstagDebugAndroidTest
+           transformResourcesWithMergeJavaResForBstagDebugUnitTest
+           transformResourcesWithMergeJavaResForBstagDynamicProfile
+           transformResourcesWithMergeJavaResForBstagDynamicProfileUnitTest
+           transformResourcesWithMergeJavaResForBstagDynamicRelease
+           transformResourcesWithMergeJavaResForBstagDynamicReleaseUnitTest
+           transformResourcesWithMergeJavaResForBstagProfile
+           transformResourcesWithMergeJavaResForBstagProfileUnitTest
+           transformResourcesWithMergeJavaResForBstagRelease
+           transformResourcesWithMergeJavaResForBstagReleaseUnitTest
+           validateSigningAprodDebug
+           validateSigningAprodDebugAndroidTest
+           validateSigningAprodDynamicProfile
+           validateSigningAprodDynamicRelease
+           validateSigningAprodProfile
+           validateSigningAprodRelease
+           validateSigningAstagDebug
+           validateSigningAstagDebugAndroidTest
+           validateSigningAstagDynamicProfile
+           validateSigningAstagDynamicRelease
+           validateSigningAstagProfile
+           validateSigningAstagRelease
+           validateSigningBprodDebug
+           validateSigningBprodDebugAndroidTest
+           validateSigningBprodDynamicProfile
+           validateSigningBprodDynamicRelease
+           validateSigningBprodProfile
+           validateSigningBprodRelease
+           validateSigningBstagDebug
+           validateSigningBstagDebugAndroidTest
+           validateSigningBstagDynamicProfile
+           validateSigningBstagDynamicRelease
+           validateSigningBstagProfile
+           validateSigningBstagRelease
+           writeAprodDebugApplicationId
+           writeAprodDebugModuleMetadata
+           writeAprodDynamicProfileApplicationId
+           writeAprodDynamicProfileModuleMetadata
+           writeAprodDynamicReleaseApplicationId
+           writeAprodDynamicReleaseModuleMetadata
+           writeAprodProfileApplicationId
+           writeAprodProfileModuleMetadata
+           writeAprodReleaseApplicationId
+           writeAprodReleaseModuleMetadata
+           writeAstagDebugApplicationId
+           writeAstagDebugModuleMetadata
+           writeAstagDynamicProfileApplicationId
+           writeAstagDynamicProfileModuleMetadata
+           writeAstagDynamicReleaseApplicationId
+           writeAstagDynamicReleaseModuleMetadata
+           writeAstagProfileApplicationId
+           writeAstagProfileModuleMetadata
+           writeAstagReleaseApplicationId
+           writeAstagReleaseModuleMetadata
+           writeBprodDebugApplicationId
+           writeBprodDebugModuleMetadata
+           writeBprodDynamicProfileApplicationId
+           writeBprodDynamicProfileModuleMetadata
+           writeBprodDynamicReleaseApplicationId
+           writeBprodDynamicReleaseModuleMetadata
+           writeBprodProfileApplicationId
+           writeBprodProfileModuleMetadata
+           writeBprodReleaseApplicationId
+           writeBprodReleaseModuleMetadata
+           writeBstagDebugApplicationId
+           writeBstagDebugModuleMetadata
+           writeBstagDynamicProfileApplicationId
+           writeBstagDynamicProfileModuleMetadata
+           writeBstagDynamicReleaseApplicationId
+           writeBstagDynamicReleaseModuleMetadata
+           writeBstagProfileApplicationId
+           writeBstagProfileModuleMetadata
+           writeBstagReleaseApplicationId
+           writeBstagReleaseModuleMetadata
+
+           Rules
+           -----
+           Pattern: clean<TaskName>: Cleans the output files of a task.
+           Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+           Pattern: upload<ConfigurationName>: Assembles and uploads the artifacts belonging to a configuration.
+           1 actionable task: 1 executed
+[  +17 ms] Resolving dependencies... (completed in 6.8s)
+[  +72 ms] executing: /Users/lfnovo/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell -x logcat -v time -t 1
+[  +36 ms] Exit code 0 from: /Users/lfnovo/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell -x logcat -v time -t 1
+[        ] --------- beginning of main
+           06-28 21:36:57.010 I/DeviceStateChecker( 2678): DeviceStateChecker cancelled
+[   +3 ms] executing: /Users/lfnovo/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell -x logcat -v time
+[   +6 ms] executing: /Users/lfnovo/Library/Android/sdk/platform-tools/adb version
+[  +16 ms] Android Debug Bridge version 1.0.41
+           Version 29.0.1-5644136
+           Installed as /Users/lfnovo/Library/Android/sdk/platform-tools/adb
+[   +4 ms] executing: /Users/lfnovo/Library/Android/sdk/platform-tools/adb start-server
+[ +272 ms] Building APK
+[  +25 ms] Running Gradle task 'assembleAstagDebug'...
+[   +5 ms] executing: [/Users/lfnovo/Documents/dev/skore-flutter/android/] /Users/lfnovo/Documents/dev/skore-flutter/android/gradlew -Pverbose=true -Ptarget=/Users/lfnovo/Documents/dev/skore-flutter/lib/main_a_stag.dart -Ptrack-widget-creation=false -Pcompilation-trace-file=compilation.txt -Pfilesystem-scheme=org-dartlang-root assembleAstagDebug
+[+2556 ms] > Configure project :app
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+[        ] WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
+[        ] It will be removed at the end of 2019.
+[        ] For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+[        ] To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+[        ] WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+[        ] It will be removed at the end of 2019.
+[        ] For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+[        ] To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+[+1673 ms] > Task :app:flutterBuildX86Jar UP-TO-DATE
+[  +98 ms] > Task :app:preBuild UP-TO-DATE
+[        ] > Task :cloud_firestore:preBuild UP-TO-DATE
+[        ] > Task :cloud_firestore:preDebugBuild UP-TO-DATE
+[        ] > Task :cloud_firestore:checkDebugManifest UP-TO-DATE
+[        ] > Task :cloud_firestore:processDebugManifest UP-TO-DATE
+[        ] > Task :connectivity:preBuild UP-TO-DATE
+[        ] > Task :connectivity:preDebugBuild UP-TO-DATE
+[        ] > Task :connectivity:checkDebugManifest UP-TO-DATE
+[        ] > Task :connectivity:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_analytics:preBuild UP-TO-DATE
+[        ] > Task :firebase_analytics:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_analytics:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_analytics:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_core:preBuild UP-TO-DATE
+[        ] > Task :firebase_core:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_core:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_core:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_crashlytics:preBuild UP-TO-DATE
+[        ] > Task :firebase_crashlytics:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_crashlytics:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_crashlytics:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_database:preBuild UP-TO-DATE
+[        ] > Task :firebase_database:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_database:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_database:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:preBuild UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:processDebugManifest UP-TO-DATE
+[        ] > Task :firebase_messaging:preBuild UP-TO-DATE
+[        ] > Task :firebase_messaging:preDebugBuild UP-TO-DATE
+[        ] > Task :firebase_messaging:checkDebugManifest UP-TO-DATE
+[        ] > Task :firebase_messaging:processDebugManifest UP-TO-DATE
+[        ] > Task :flutter_crashlytics:preBuild UP-TO-DATE
+[        ] > Task :flutter_crashlytics:preDebugBuild UP-TO-DATE
+[        ] > Task :flutter_crashlytics:checkDebugManifest UP-TO-DATE
+[        ] > Task :flutter_crashlytics:processDebugManifest UP-TO-DATE
+[        ] > Task :shared_preferences:preBuild UP-TO-DATE
+[        ] > Task :shared_preferences:preDebugBuild UP-TO-DATE
+[        ] > Task :shared_preferences:checkDebugManifest UP-TO-DATE
+[        ] > Task :shared_preferences:processDebugManifest UP-TO-DATE
+[  +89 ms] > Task :app:preAstagDebugBuild UP-TO-DATE
+[        ] > Task :connectivity:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_analytics:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_core:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_crashlytics:compileDebugAidl NO-SOURCE
+[        ] > Task :flutter_crashlytics:compileDebugAidl NO-SOURCE
+[        ] > Task :shared_preferences:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_dynamic_links:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_messaging:compileDebugAidl NO-SOURCE
+[        ] > Task :cloud_firestore:compileDebugAidl NO-SOURCE
+[        ] > Task :firebase_database:compileDebugAidl NO-SOURCE
+[        ] > Task :app:compileAstagDebugAidl NO-SOURCE
+[        ] > Task :cloud_firestore:packageDebugRenderscript NO-SOURCE
+[        ] > Task :connectivity:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_analytics:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_core:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_crashlytics:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_database:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_dynamic_links:packageDebugRenderscript NO-SOURCE
+[        ] > Task :firebase_messaging:packageDebugRenderscript NO-SOURCE
+[        ] > Task :flutter_crashlytics:packageDebugRenderscript NO-SOURCE
+[        ] > Task :shared_preferences:packageDebugRenderscript NO-SOURCE
+[ +198 ms] > Task :app:compileAstagDebugRenderscript NO-SOURCE
+[        ] > Task :app:checkAstagDebugManifest UP-TO-DATE
+[        ] > Task :app:generateAstagDebugBuildConfig UP-TO-DATE
+[  +98 ms] > Task :app:cleanMergeAstagDebugAssets
+[  +98 ms] > Task :app:compileflutterBuildAstagDebugandroid-arm UP-TO-DATE
+[        ] > Task :app:mergeAstagDebugShaders UP-TO-DATE
+[        ] > Task :app:compileAstagDebugShaders UP-TO-DATE
+[        ] > Task :app:generateAstagDebugAssets UP-TO-DATE
+[        ] > Task :cloud_firestore:mergeDebugShaders UP-TO-DATE
+[        ] > Task :cloud_firestore:compileDebugShaders UP-TO-DATE
+[        ] > Task :cloud_firestore:generateDebugAssets UP-TO-DATE
+[        ] > Task :cloud_firestore:packageDebugAssets UP-TO-DATE
+[        ] > Task :connectivity:mergeDebugShaders UP-TO-DATE
+[        ] > Task :connectivity:compileDebugShaders UP-TO-DATE
+[        ] > Task :connectivity:generateDebugAssets UP-TO-DATE
+[        ] > Task :connectivity:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_analytics:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_analytics:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_analytics:generateDebugAssets UP-TO-DATE
+[        ] > Task :firebase_analytics:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_core:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_core:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_core:generateDebugAssets UP-TO-DATE
+[        ] > Task :firebase_core:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_crashlytics:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_crashlytics:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_crashlytics:generateDebugAssets UP-TO-DATE
+[        ] > Task :firebase_crashlytics:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_database:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_database:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_database:generateDebugAssets UP-TO-DATE
+[        ] > Task :firebase_database:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:generateDebugAssets UP-TO-DATE
+[        ] > Task :firebase_dynamic_links:packageDebugAssets UP-TO-DATE
+[        ] > Task :firebase_messaging:mergeDebugShaders UP-TO-DATE
+[        ] > Task :firebase_messaging:compileDebugShaders UP-TO-DATE
+[        ] > Task :firebase_messaging:generateDebugAssets UP-TO-DATE
+[   +1 ms] > Task :firebase_messaging:packageDebugAssets UP-TO-DATE
+[        ] > Task :flutter_crashlytics:mergeDebugShaders UP-TO-DATE
+[        ] > Task :flutter_crashlytics:compileDebugShaders UP-TO-DATE
+[        ] > Task :flutter_crashlytics:generateDebugAssets UP-TO-DATE
+[        ] > Task :flutter_crashlytics:packageDebugAssets UP-TO-DATE
+[        ] > Task :shared_preferences:mergeDebugShaders UP-TO-DATE
+[  +91 ms] > Task :shared_preferences:compileDebugShaders UP-TO-DATE
+[        ] > Task :shared_preferences:generateDebugAssets UP-TO-DATE
+[        ] > Task :shared_preferences:packageDebugAssets UP-TO-DATE
+[        ] > Task :app:mergeAstagDebugAssets
+[ +600 ms] > Task :app:copyFlutterAssetsAstagDebug
+[        ] > Task :app:mainApkListPersistenceAstagDebug UP-TO-DATE
+[        ] > Task :app:writeAstagDebugApplicationId UP-TO-DATE
+[        ] > Task :app:processAstagDebugGoogleServices FAILED
+[        ] Parsing json file: /Users/lfnovo/Documents/dev/skore-flutter/android/app/src/astag/google-services.json
+[   +1 ms]          *********************************************************
+[        ] WARNING: This version of cloud_firestore will break your Android build if it or its dependencies aren't compatible with AndroidX.
+[        ]          See https://goo.gl/CP92wY for more information on the problem and how to fix it.
+[        ]          This warning prints for all Android build failures. The real root cause of the error may be unrelated.
+[        ]          *********************************************************
+[        ] 63 actionable tasks: 4 executed, 59 up-to-date
+[ +445 ms] Running Gradle task 'assembleAstagDebug'... (completed in 6.0s)
+[   +5 ms] "flutter run" took 16,781ms.
+[        ] "flutter run" took 16,781ms.

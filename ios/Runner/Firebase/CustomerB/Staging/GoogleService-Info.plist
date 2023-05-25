@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>614495757426-5g1pm7cmm6mpi4jj6tgnngs82p91446s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.614495757426-5g1pm7cmm6mpi4jj6tgnngs82p91446s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjE9SVIfPBpJB-Zq7IMq-s_xQjMhA40V4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>614495757426</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>skore.io.customerb.staging</string>
+	<key>PROJECT_ID</key>
+	<string>skore-flutter-customer-b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skore-flutter-customer-b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:614495757426:ios:4d8f9012a5726c23</string>
+	<key>DATABASE_URL</key>
+	<string>https://skore-flutter-customer-b.firebaseio.com</string>
+</dict>
+</plist>
